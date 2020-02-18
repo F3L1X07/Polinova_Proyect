@@ -1,0 +1,56 @@
+/*******************************************************
+	Programa de Ejecución de pruebas basicas
+	para el estudio del lenguaje de programación JAVA
+********************************************************/
+package Pruebas;
+
+import java.util.Scanner;
+
+public class Clase_Ejecucion {
+	public static void main(String[] args){
+		//Clase Ejecutora
+		prueba1();
+	}
+
+	public static void prueba1() {
+		int o;
+		
+		Scanner tecla = new Scanner(System.in);
+		System.out.print("presione un numero del 0 al 4 \n");
+		o = tecla.nextInt();
+		switch(o) 
+		{
+			case 0:
+			{
+				System.out.print("Selecciono la opcion 0");
+			}
+			
+			case 1: 
+			{
+				System.out.print("Selecciono la opcion 1");
+			}
+			
+			case 2:
+			{
+				System.out.print("Selecciono la opcion 2");
+			}
+			
+			case 3:
+			{
+				System.out.print("Selecciono la opcion 3");
+			}
+			
+			case 4:
+			{
+				System.out.print("Selecciono la opcion 4");
+			}
+			
+			default:
+			{
+				System.out.print("Opción inexistente, vuelva a intentarlo");
+				return (prueba1);
+			}
+		}
+	}
+
+}

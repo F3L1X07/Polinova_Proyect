@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>CRUDyLeaf</title>
+    <link>http://marketplace.eclipse.org/content/crudyleaf</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/crudyleaf.jpg&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2020-02-17 15:47&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22GrIISoft%20Research%20Group%2C%20ESPOCH%22&quot;&gt;GrIISoft Research Group, ESPOCH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2020-01-31 22:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/ogmezqmq/listings&quot; title=&quot;Omar S. Gómez&quot;&gt;Omar S. Gómez&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Build Spring Boot REST endpoints (APIs) by defining entities and CRUD operations. The grammar of this DSL automatically generates the Spring Boot REST files (application, entity, repository, service and controller classes, pom file, etc.). Once generated the files (under src-gen folder), you can run the project (structured as a Maven project) either using a command-line console (with the command: &lt;code&gt;mvn spring-boot:run&lt;/code&gt;) or importing the Maven project using a Java IDE.&lt;/p&gt;
+&lt;p&gt;Once installed this plugin, open a new project (generic project), new file (remember to use the .g2 as extension file). Select yes in case a window prompts you to convert the project to an Xtext project, this in order to generate the code each time you save the source file (.g2 file). &lt;/p&gt;
+&lt;p&gt;Click in &lt;a href=&quot;http://osgg.net/crudyleaf/crudyleaf_grammar.png&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;this link&lt;/a&gt; to see an example of the language grammar.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;This example will produce the corresponding Spring Boot Java files such as: &lt;code&gt;Car.java&lt;/code&gt; (entity), &lt;code&gt;CarRepository.java&lt;/code&gt;, &lt;code&gt;CarService.java&lt;/code&gt;, &lt;code&gt;CarController.java&lt;/code&gt;, &lt;code&gt;Order.java&lt;/code&gt;, &lt;code&gt;OrderRepository.java&lt;/code&gt;, &lt;code&gt;OrderService.java&lt;/code&gt;, &lt;code&gt;OrderController.java&lt;/code&gt;, also the main file &lt;code&gt;DemoAppApplication.java&lt;/code&gt; and the maven pom file &lt;code&gt;pom.xml&lt;/code&gt;. The CRUD operations specified in the entities are exposed as REST services (&lt;code&gt;CarController.java&lt;/code&gt; and &lt;code&gt;OrderController.java&lt;/code&gt;). By default, the H2 database is used, but you can change it in the &lt;code&gt;application.properties&lt;/code&gt; file. Data types supported are Long, UUID, String, Integer, Double, Boolean, Date and Time. An entity property can be filtered only by data types String and Date. CRUDyLeaf will generate the corresponding endpoints for searching in the filtered properties. Date and Time data types can automatically generate values each a successful post is requested. Concerning the timezone, it is possible to define any available from &lt;code&gt;TimeZone.getAvailableIDs()&lt;/code&gt;. A complete list of available timezones is discussed in &lt;a href=&quot;http://tutorials.jenkov.com/java-date-time/java-util-timezone.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;this link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can import the resulting spring boot project through a java IDE or running it with the mvn command, &lt;code&gt;mvn spring-boot:run&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The plugin can be manually installed from the URL: &lt;code&gt;osgg.net/crudyleaf&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sat, 01 Feb 2020 03:24:33 +0000</pubDate>
+ <dc:creator>ogmezqmq</dc:creator>
+ <guid isPermaLink="false">4969689 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/crudyleaf#comments</comments>
+  </item>
+  <item>
+    <title>iSphere for RDi 9.5+</title>
+    <link>http://marketplace.eclipse.org/content/isphere-rdi-95</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/isphere_marketplace.jpg&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2020-02-17 13:48&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22iSphere%20Project%20Team%22&quot;&gt;iSphere Project Team&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-01-10 16:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/traddatz/listings&quot; title=&quot;Thomas Raddatz&quot;&gt;Thomas Raddatz&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;iSphere is an open source plug-in for WDSCi 7.0 and RDi 8.0+. It delivers high quality extensions for WDSC, RDP and RDi to further improve developer productivity.&lt;/p&gt;
+&lt;p&gt;IBM&#039;s current Eclipse based Integrated Development Environment (IDE) is a huge step beyond SEU, but it still lacks features available only on the green screen. That is where the iSphere Project comes into play, filling in those gaps.&lt;/p&gt;
+&lt;p&gt;Feature list:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Binding Directory Editor&lt;/li&gt;
+&lt;li&gt;Data Area Editor&lt;/li&gt;
+&lt;li&gt;User Space Editor&lt;/li&gt;
+&lt;li&gt;Data Queue Viewer&lt;/li&gt;
+&lt;li&gt;Message File Editor&lt;/li&gt;
+&lt;li&gt;Message File Compare Editor&lt;/li&gt;
+&lt;li&gt;Message File Search&lt;/li&gt;
+&lt;li&gt;Source File Search&lt;/li&gt;
+&lt;li&gt;Source Compare/Merge Editor&lt;/li&gt;
+&lt;li&gt;Spooled Files Subsystem&lt;/li&gt;
+&lt;li&gt;Lpex Task Tags&lt;/li&gt;
+&lt;li&gt;Host Object Decorator&lt;/li&gt;
+&lt;li&gt;RSE Filter Manager&lt;/li&gt;
+&lt;li&gt;Message Subsystem and Monitor&lt;/li&gt;
+&lt;li&gt;Job Log Explorer&lt;/li&gt;
+&lt;li&gt;Journal Explorer&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;iSphere is an Open Source project that is hosted on &lt;a href=&quot;https://sourceforge.net/projects/isphere/&quot; rel=&quot;nofollow&quot;&gt;Source Forge&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 10 Jan 2017 21:11:59 +0000</pubDate>
+ <dc:creator>traddatz</dc:creator>
+ <guid isPermaLink="false">3248963 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/isphere-rdi-95#comments</comments>
+  </item>
+  <item>
+    <title>Codewind OpenAPI Tools</title>
+    <link>http://marketplace.eclipse.org/content/codewind-openapi-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/codewind_blue_2000px_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2020-02-17 12:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2019-06-28 15:29&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jkim/listings&quot; title=&quot;Joseph Kim&quot;&gt;Joseph Kim&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Codewind OpenAPI Tools for Eclipse provides wizards that invoke the OpenAPI Generator to create API clients, server stubs, and HTML documentation from OpenAPI Specifications. The tools are integrated with and are customized to work with Codewind for Eclipse but they also work standalone with a base Eclipse IDE for Java EE Developers installation.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 28 Jun 2019 19:29:10 +0000</pubDate>
+ <dc:creator>jkim</dc:creator>
+ <guid isPermaLink="false">4697987 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/codewind-openapi-tools#comments</comments>
+  </item>
+  <item>
+    <title>Codewind </title>
+    <link>http://marketplace.eclipse.org/content/codewind</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/codewind_blue_2000px.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2020-02-17 12:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2019-05-16 13:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jkim/listings&quot; title=&quot;Joseph Kim&quot;&gt;Joseph Kim&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;Codewind for Eclipse&lt;/h2&gt;
+&lt;p&gt;Codewind for Eclipse provides tools to help build cloud-native, containerized applications from Eclipse, regardless of which runtime or language you use. Rapidly create an application from a template project and launch, update, test, and debug in Docker containers on the desktop.&lt;/p&gt;
+&lt;p&gt;For more information, see &lt;a href=&quot;https://www.eclipse.org/codewind/&quot; rel=&quot;nofollow&quot;&gt;https://www.eclipse.org/codewind/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why use Codewind?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Get started with templates or samples that you can use to quickly create and deploy applications that run in containers.&lt;/li&gt;
+&lt;li&gt;Create containerized applications in languages that you&#039;re already familiar with. Codewind supports popular runtimes.&lt;/li&gt;
+&lt;li&gt;Pull in your existing applications and use Codewind to help get them cloud ready.&lt;/li&gt;
+&lt;li&gt;See code changes reflected in your containerized application almost instantaneously. The Codewind advanced inner loop manages your application updates efficiently.&lt;/li&gt;
+&lt;li&gt;Develop in containers without feeling like you&#039;re developing in containers. Development flow within the IDE feels the same as traditional application development.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Create new containerized projects or add existing ones.&lt;/li&gt;
+&lt;li&gt;View your containerized projects, including the application and build status.&lt;/li&gt;
+&lt;li&gt;Debug Microprofile/Java EE, Node.js, and Spring applications.&lt;/li&gt;
+&lt;li&gt;Access application, build, and container logs in the Output view.&lt;/li&gt;
+&lt;li&gt;See validation errors in the Problems view.&lt;/li&gt;
+&lt;li&gt;Open a shell session into an application container.&lt;/li&gt;
+&lt;li&gt;Toggle the project auto build setting and manually initiate project builds.&lt;/li&gt;
+&lt;li&gt;Open your application or the application monitor in a browser.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Getting started with Codewind&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For more information, see &lt;a href=&quot;https://www.eclipse.org/codewind/mdteclipsegettingstarted.html&quot; rel=&quot;nofollow&quot;&gt;https://www.eclipse.org/codewind/mdteclipsegettingstarted.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contributing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Submit issues and contributions:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Submitting issues: &lt;a href=&quot;https://github.com/eclipse/codewind/issues&quot; rel=&quot;nofollow&quot;&gt;https://github.com/eclipse/codewind/issues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Contributing: &lt;a href=&quot;https://github.com/eclipse/codewind-eclipse/blob/master/CONTRIBUTING.md&quot; rel=&quot;nofollow&quot;&gt;https://github.com/eclipse/codewind-eclipse/blob/master/CONTRIBUTING.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Developing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To develop and debug Codewind for Eclipse, see &lt;a href=&quot;https://github.com/eclipse/codewind-eclipse/blob/master/README.md#developing-codewind-for-eclipse&quot; rel=&quot;nofollow&quot;&gt;https://github.com/eclipse/codewind-eclipse/blob/master/README.md#develo...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 16 May 2019 17:09:11 +0000</pubDate>
+ <dc:creator>jkim</dc:creator>
+ <guid isPermaLink="false">4638524 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/codewind#comments</comments>
+  </item>
+  <item>
+    <title>eCLIAS - Eclipse Concept Location, Impact Analysis, and Search Tool</title>
+    <link>http://marketplace.eclipse.org/content/eclias-eclipse-concept-location-impact-analysis-and-search-tool</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Imp%20copy%202.png&quot; width=&quot;82&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2020-02-14 19:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Boise%20State%20University%22&quot;&gt;Boise State University&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2020-02-05 16:20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/vrajun8v/listings&quot; title=&quot;Vasanth Geethan Raju&quot;&gt;Vasanth Geethan Raju&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The user searches the query that matches the method, gives similarity values, and opens the class file with the exact method from the result.  &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;How to Use: &lt;/p&gt;
+&lt;p&gt;Import the Project on eclipse as follows&lt;/p&gt;
+&lt;p&gt;Click File -&amp;gt; Import&lt;/p&gt;
+&lt;p&gt;Expand the Git folder, select Projects from Git, and click Next&lt;/p&gt;
+&lt;p&gt;Select Clone URI and click Next&lt;/p&gt;
+&lt;p&gt;Paste the clone link in the Clone URI&lt;/p&gt;
+&lt;p&gt;Select master and click Next&lt;/p&gt;
+&lt;p&gt;Select a directory and click Next&lt;/p&gt;
+&lt;p&gt;Choose Import existing Eclipse projects and click Next&lt;/p&gt;
+&lt;p&gt;Click Finish&lt;/p&gt;
+&lt;p&gt;Run the project as an Eclipse Application as follows&lt;/p&gt;
+&lt;p&gt;Select the project&lt;/p&gt;
+&lt;p&gt;Click Run -&amp;gt; Run As -&amp;gt; Eclipse Application&lt;/p&gt;
+&lt;p&gt;Click the Eclipse Icon in the Toolbar to see the command box with the message &quot;Hello, Eclipse world&quot;&lt;/p&gt;
+&lt;p&gt;Import Eclipse project following the steps above from here.&lt;/p&gt;
+&lt;p&gt;After importing,&lt;/p&gt;
+&lt;p&gt;Click Window -&amp;gt; Show View -&amp;gt; Other ... -&amp;gt; Eclias Tool -&amp;gt; Eclias Tool&lt;/p&gt;
+&lt;p&gt;Give a text query in the search box and click the search button to view the results&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 05 Feb 2020 21:20:01 +0000</pubDate>
+ <dc:creator>vrajun8v</dc:creator>
+ <guid isPermaLink="false">4974898 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclias-eclipse-concept-location-impact-analysis-and-search-tool#comments</comments>
+  </item>
+  <item>
+    <title>UML Lab Class Diagram Editor</title>
+    <link>http://marketplace.eclipse.org/content/uml-lab-class-diagram-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/UML%20Lab%20Screenshot%20Shop_1.png&quot; width=&quot;110&quot; height=&quot;69&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2020-02-14 10:22&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Yatta%20Solutions%20GmbH%22&quot;&gt;Yatta Solutions GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2012-10-15 10:21&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jjacop/listings&quot; title=&quot;Johannes Jacop&quot;&gt;Johannes Jacop&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;UML Class Diagram Editor for Eclipse&lt;/h2&gt;
+&lt;p&gt;
+With &lt;a href=&quot;http://www.uml-lab.com/services-for-eclipse/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;UML Lab Class Diagrams for Eclipse&lt;/a&gt; we provide a light-weight but highly professional software tool for creating and editing UML class and package diagrams with your Eclipse IDE.&lt;/p&gt;
+
+&lt;h3&gt;UML Lab Class Diagram Editor Features&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;UML 2.5 class and package diagram editor&lt;/li&gt;
+&lt;li&gt;Model validation (OCL)&lt;/li&gt;
+&lt;li&gt;Navigation and model exploration&lt;/li&gt;
+&lt;li&gt;Task-focussed modeling with Mylyn&lt;/li&gt;
+&lt;li&gt;XMI import/export (Rational Software Architect, TopCASED, Eclipse UML2)&lt;/li&gt;
+&lt;li&gt;Diagram export (svg, png, jpg, bmp)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Take a look at &lt;a href=&quot;http://www.uml-lab.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;UML Lab&lt;/a&gt; for our full-featured agile modeling solution.&lt;/p&gt;
+&lt;h3&gt;How does the »UML Lab Class Diagram Editor for Eclipse« work?&lt;/h3&gt;
+&lt;p&gt;Install &lt;a href=&quot;http://www.uml-lab.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;UML Lab&lt;/a&gt; (the full edition or just the class diagram editor) into your Eclipse IDE and use the editor for a month at a time whenever you need. After your usage period expires, the editor functions are disabled again.&lt;/p&gt;
+&lt;p&gt;In our experience, developers utilize their Eclipse IDE in very different ways. Depending on project, task and personal preference, they make use of a wide variety of functions, tools and frameworks. Good developers know the right tools for the job at hand. With UML Lab Services, we now offer you exactly the functions you need for your analysis, design and implementation tasks exactly when you need them - true to our values »agile, simple and efficient.«&lt;/p&gt;
+&lt;p&gt;Our vision is for Eclipse users to no longer buy tools in bulk, but to use specific functions in their Eclipse IDE flexibly and on demand. You only pay what you need. Our &lt;a href=&quot;http://www.uml-lab.com/services-for-eclipse/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;UML Lab Class Diagram Service for Eclipse&lt;/a&gt; is a first step in that direction.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://marketplace.yatta.de/profiles/Pphz&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;More information about »UML Lab Services for Eclipse«&lt;/h3&gt;
+&lt;p&gt;Monthly licenses are available from EUR 19 including support and updates; &lt;a href=&quot;http://www.uml-lab.com/academic/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Academic Licenses&lt;/a&gt; are free.&lt;/p&gt;
+&lt;p&gt;Visit our &lt;a href=&quot;http://www.uml-lab.com/services-for-eclipse/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;website&lt;/a&gt; for more information. Follow the latest Yatta News on &lt;a href=&quot;http://twitter.com/YattaSolutions/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;http://facebook.com/YattaSolutions/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Facebook&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Send us feedback!&lt;/h3&gt;
+&lt;p&gt;We are interested in your feedback and suggestions regarding our &lt;a href=&quot;http://www.uml-lab.com/services-for-eclipse/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;UML Lab Services&lt;/a&gt; – or Eclipse in general – good or bad alike: Just &lt;a href=&quot;http://www.yatta.de/kontakt/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;contact us&lt;/a&gt; or post your question in our &lt;a href=&quot;http://forum.yatta.de/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;forum&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As Eclipse Solution Member, we strive to create custom-made software tools that match your needs and compel with efficiency, quality and creativity.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 15 Oct 2012 14:21:57 +0000</pubDate>
+ <dc:creator>jjacop</dc:creator>
+ <guid isPermaLink="false">473457 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/uml-lab-class-diagram-editor#comments</comments>
+  </item>
+  <item>
+    <title>UML Lab Modeling IDE</title>
+    <link>http://marketplace.eclipse.org/content/uml-lab-modeling-ide</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Eclipse%20Marketplace%20Listing%20-%20Round-Trip-Engineering%20%282%29%20110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2020-02-14 10:20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Yatta%20Solutions%20GmbH%22&quot;&gt;Yatta Solutions GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2010-11-11 09:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/lgeiger/listings&quot; title=&quot;Leif Geiger&quot;&gt;Leif Geiger&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;UML Lab Modeling IDE&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.uml-lab.com/uml-lab/eclipse/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;UML Lab&lt;/a&gt; is the first Modeling IDE to seamlessly combine modeling and programming with an intuitive UML diagram editor and &lt;a href=&quot;http://www.uml-lab.com/uml-lab/features/roundtrip/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;next-gen round-trip engineering&lt;/a&gt;. Import your software project and get a nice overview via UML within seconds. Experience truly agile modeling and coding within your Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.uml-lab.com/en/uml-lab/videos/round-trip-engineering-ng-video/&quot; target=&quot;UML Lab Gallery&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In short, &lt;a href=&quot;http://www.uml-lab.com/uml-lab/eclipse/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;UML Lab&lt;/a&gt; helps you develop great software.&lt;/p&gt;
+&lt;h3&gt;UML Lab Features for Eclipse Modeling&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Template-based Reverse- and Round-Trip-Engineering NG&lt;/li&gt;
+&lt;li&gt;UML 2.5 class diagram editor with Xpand/Xtend integration&lt;/li&gt;
+&lt;li&gt;Java templates with best practices and patterns included (POJO, JPA, JEE)&lt;/li&gt;
+&lt;li&gt;Java 8 ready&lt;/li&gt;
+&lt;li&gt;PHP templates including MySQL, Zend Framework and CakePHP support&lt;/li&gt;
+&lt;li&gt;Model-based code validation (OCL)&lt;/li&gt;
+&lt;li&gt;Navigation and model exploration&lt;/li&gt;
+&lt;li&gt;Quick overview for any Mylyn task with Context Class Diagrams&lt;/li&gt;
+&lt;li&gt;Task-focussed modeling with Mylyn and round-trip context synchronization&lt;/li&gt;
+&lt;li&gt;XMI import/export (Rational Software Architect, TopCASED, Eclipse UML2)&lt;/li&gt;
+&lt;li&gt;Diagram export (svg, png, jpg, bmp)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;Get UML Lab&lt;/h3&gt;
+&lt;p&gt;Visit our &lt;a href=&quot;http://www.uml-lab.com/uml-lab/eclipse/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;website&lt;/a&gt; for more information, pricing and to download a &lt;a href=&quot;http://www.uml-lab.com/download/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;FREE 30-Day Trial&lt;/a&gt; of UML Lab. Annual licenses are available from EUR 199 including support and updates; &lt;a href=&quot;http://www.uml-lab.com/academic/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;Academic Licenses&lt;/a&gt; are free.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://marketplace.yatta.de/profiles/kbut&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Contact us&lt;/h3&gt;
+&lt;p&gt;Missing some information? Post your question in our &lt;a href=&quot;https://forum.yatta.de/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;forum&lt;/a&gt; or &lt;a href=&quot;http://www.yatta.de/kontakt/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;contact us&lt;/a&gt; and follow the latest Yatta News on &lt;a href=&quot;http://twitter.com/YattaSolutions/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;Twitter&lt;/a&gt; (e.g. UMLlab ) and &lt;a href=&quot;http://facebook.com/YattaSolutions/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;Facebook&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 11 Nov 2010 14:06:52 +0000</pubDate>
+ <dc:creator>lgeiger</dc:creator>
+ <guid isPermaLink="false">19495 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/uml-lab-modeling-ide#comments</comments>
+  </item>
+  <item>
+    <title>Cucumber Eclipse Plugin</title>
+    <link>http://marketplace.eclipse.org/content/cucumber-eclipse-plugin</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/cucumber_0.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2020-02-14 07:37&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Cucumber%22&quot;&gt;Cucumber&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2017-11-10 06:08&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/gpandam3m/listings&quot; title=&quot;Girija Prasad Panda&quot;&gt;Girija Prasad Panda&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h4&gt;An eclipse plugin for &lt;a href=&quot;https://cucumber.io/&quot; rel=&quot;nofollow&quot;&gt; Cucumber &lt;/a&gt;.&lt;/h4&gt;
+&lt;h3&gt;New Feature list in the version available from the update site:&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;
+&lt;h4&gt;&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Lambda-Expression-support-for-Cucumber-Java8&quot; rel=&quot;nofollow&quot;&gt;Lambda Expression support for Cucumber-Java8 &lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4&gt;&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Content-Assistance-for-feature-file&quot; rel=&quot;nofollow&quot;&gt;Content Assistance for feature file &lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4&gt;&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/New-Step-Definition-File-Wizard&quot; rel=&quot;nofollow&quot;&gt;New Step Definition File Wizard&lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4&gt;&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Auto-Generation-of-Sample-Feature-Definition-Template&quot; rel=&quot;nofollow&quot;&gt;Auto Generation of Feature Definition&lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4&gt;&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/I18n-Syntax-highlighting&quot; rel=&quot;nofollow&quot;&gt;I18n Syntax highlighting&lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4&gt;&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Pretty-Formatting&quot; rel=&quot;nofollow&quot;&gt;Pretty Formatting&lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4&gt;&lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki/Feature-Runner&quot; rel=&quot;nofollow&quot;&gt;Feature runner with formatters&lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4&gt;&lt;strong&gt;Click through from Step to Step Definition&lt;/strong&gt;. (Currently only works in English, and from pop up menu)&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;h4&gt;Please head over to our &lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse&quot; rel=&quot;nofollow&quot;&gt; Github Repository &lt;/a&gt; for more information.&lt;/h4&gt;
+&lt;h4&gt;Please consult our &lt;a href=&quot;https://github.com/cucumber/cucumber-eclipse/wiki&quot; rel=&quot;nofollow&quot;&gt; Plugin-Wiki &lt;/a&gt; for a full list for currently available features and screenshots.&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 10 Nov 2017 11:08:15 +0000</pubDate>
+ <dc:creator>gpandam3m</dc:creator>
+ <guid isPermaLink="false">3759385 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/cucumber-eclipse-plugin#comments</comments>
+  </item>
+  <item>
+    <title>Groovy Development Tools</title>
+    <link>http://marketplace.eclipse.org/content/groovy-development-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/groovy-logo-medium.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2020-02-13 23:46&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pivotal%22&quot;&gt;Pivotal&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2012-07-04 13:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/aclement/listings&quot; title=&quot;Andrew Clement&quot;&gt;Andrew Clement&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Groovy Development Tools (GDT) provides Eclipse and Maven (m2e) support for the &lt;a href=&quot;http://groovy-lang.org&quot; rel=&quot;nofollow&quot;&gt;Apache Groovy&lt;/a&gt; programming language. GDT adds full-featured IDE support including editors, wizards, content assist, debugging, refactoring and searching.&lt;/p&gt;
+&lt;p&gt;The GDT requires the &lt;a href=&quot;https://marketplace.eclipse.org/content/eclipse-java-development-tools-0&quot; rel=&quot;nofollow&quot;&gt;Eclipse Java Development Tools&lt;/a&gt; (JDT) as it builds upon Java/JVM support, including Java interoperability (bi-directional dependencies via joint compilation). If your Eclipse flavor does not include JDT, you must install it first.&lt;/p&gt;
+&lt;p&gt;GDT does not provide any direct support for &lt;a href=&quot;http://grails.org&quot; rel=&quot;nofollow&quot;&gt;Grails&lt;/a&gt;. If you want Grails tooling, then please consider &lt;a href=&quot;https://marketplace.eclipse.org/content/groovygrails-tool-suite-ggts-eclipse&quot; rel=&quot;nofollow&quot;&gt;Groovy-Grails Tools Suite&lt;/a&gt; or &lt;a href=&quot;https://github.com/spring-projects/grails-ide&quot; rel=&quot;nofollow&quot;&gt;spring-projects/grails-ide&lt;/a&gt; for your Grails projects.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 04 Jul 2012 17:05:41 +0000</pubDate>
+ <dc:creator>aclement</dc:creator>
+ <guid isPermaLink="false">321859 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/groovy-development-tools#comments</comments>
+  </item>
+  <item>
+    <title>jCrystal Tools</title>
+    <link>http://marketplace.eclipse.org/content/jcrystal-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/VersionVertical_CrystalTech.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2020-02-13 22:16&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22jCrystal%22&quot;&gt;jCrystal&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2020-01-06 22:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jjcrystal/listings&quot; title=&quot;jCrystal jCrystal&quot;&gt;jCrystal jCrystal&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The jCrystal plugin is a tool to create jCrystal projects and generate code from them to both backend and frontend applications.&lt;/p&gt;
+&lt;p&gt;jCrystal is a fullstack framework based on code generators. It aims to reduce code re-write on web applications by reusing backend side data structures, business logic and web services to generate frontend equivalents.&lt;/p&gt;
+&lt;p&gt;You can use this plugin to:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Create a jCrystal project,&lt;/li&gt;
+&lt;li&gt;Run jCrystal inside a project to generate code.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Website: &lt;/strong&gt; &lt;a href=&quot;https://jcrystal.dev/&quot; rel=&quot;nofollow&quot;&gt;http://jcrystal.dev/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Documentation: &lt;/strong&gt;&lt;a href=&quot;https://crystaltechsas.github.io/jcrystal_documentation/&quot; rel=&quot;nofollow&quot;&gt;http://crystaltechsas.github.io/jcrystal_documentation/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 07 Jan 2020 03:25:03 +0000</pubDate>
+ <dc:creator>jjcrystal</dc:creator>
+ <guid isPermaLink="false">4943082 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jcrystal-tools#comments</comments>
+  </item>
+  </channel>
+</rss>
