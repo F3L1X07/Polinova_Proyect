@@ -9,6 +9,77 @@
 	<atom:link rel="self" href="http://planeteclipse.org/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>Wayne Beaton: Git Contribution Activity Charts for Eclipse Projects</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5642</guid>
+	<link>https://waynebeaton.wordpress.com/2020/02/18/git-contribution-activity-charts-for-eclipse-projects/</link>
+	<description>&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;alignright&quot;&gt;&lt;img alt=&quot;Eclipse EGit: Git Integration for Eclipse&quot; src=&quot;https://projects.eclipse.org/sites/default/files/egit.png&quot; /&gt;&lt;/figure&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;em&gt;This post is brought to you today by the &lt;a href=&quot;https://projects.eclipse.org/projects/technology.egit&quot;&gt;Eclipse EGit&lt;img alt=&quot;â„¢&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/2122.png&quot; style=&quot;height: 1em;&quot; /&gt; Project&lt;/a&gt;. Eclipse EGit is the Eclipse open source project that provides Git integration for the Eclipse Platform.&lt;/em&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;On Eclipse open source project pages (which we often refer to as the &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#pmi&quot;&gt;Project Management Interface&lt;/a&gt; or “PMI”), the “&lt;a href=&quot;https://projects.eclipse.org/projects/technology.egit/who&quot;&gt;Who’s Involved&lt;/a&gt;” pages include some commit activity graphs. &lt;/p&gt;
+
+
+
+&lt;p&gt;The Contribution Activity chart shows the absolute number of commits made on project repositories over the last twelve months. Eclipse open source projects may have multiple Git repositories; this chart shows commit activity across all branches on all repositories owned by the project team.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-5652&quot; src=&quot;https://waynebeaton.files.wordpress.com/2020/02/image-1.png?w=508&quot; /&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;The Individual Contribution Activity chart shows the commits attributed to individual developers over the last three months (across all repositories and branches). The identify of the individual committer comes directly from the author field in the Git commit. For project committers, we map author credentials to the information that committers provide in their Eclipse Foundation Account, so–for committers–the name shown here will match what’s in their account, not what’s on the commit record.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-5653&quot; src=&quot;https://waynebeaton.files.wordpress.com/2020/02/image-2.png?w=473&quot; /&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;Note that any developer listed as an “Also-by” in the commit message will get credit for the commit (“Some Bodyelse”, from the &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#resources-commit&quot;&gt;example&lt;/a&gt; shown below, would share author credit for the commit). Because of the “Also-by” folks being counted as authors/contributors, some commits may be represented multiple times in the Individual Contribution Activity and Organization Contribution Activity charts (once each for each author).&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-5647&quot; src=&quot;https://waynebeaton.files.wordpress.com/2020/02/image.png?w=567&quot; /&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;If you click on a committer’s picture on the “Who’s Involved” page, you’ll see a chart of lifetime contributions to the project. If the chart is missing, that means that the person hasn’t authored any commits.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-5654&quot; src=&quot;https://waynebeaton.files.wordpress.com/2020/02/image-3.png?w=567&quot; /&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;The Organization Contribution Activity chart shows relative contributions from Eclipse Foundation &lt;a href=&quot;https://www.eclipse.org/membership/exploreMembership.php#allmembers&quot;&gt;member companies&lt;/a&gt;. Commits made by all project committers affiliated with the company (across all project Git repositories and branches) are grouped together.&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-5655&quot; src=&quot;https://waynebeaton.files.wordpress.com/2020/02/image-4.png?w=567&quot; /&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;On this chart, “Other Committer” groups together contributions from committers who do not work for a member company, and “Contributor” refers to activity by contributors (i.e., developers who are not yet not committers).&lt;/p&gt;
+
+
+
+&lt;p&gt;Active Member Companies are those Eclipse Foundation member companies that have at least on committer that has made at least one commit on the project in the last three months (note that the order is random).&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-5656&quot; src=&quot;https://waynebeaton.files.wordpress.com/2020/02/image-5.png?w=532&quot; /&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;These charts take a very narrow view of “contribution”. There are many ways to contribute to an open source project. You can answer questions on forums or mailing lists, open and comment on issues, present at conferences, …&lt;/p&gt;</description>
+	<pubDate>Tue, 18 Feb 2020 17:57:13 +0000</pubDate>
+</item>
+<item>
 	<title>InfoQ Eclipse feed: Developer Surveys Survey: Including a Spotlight on Java Results</title>
 	<guid isPermaLink="true">https://www.infoq.com/news/2020/02/developer-surveys/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
 	<link>https://www.infoq.com/news/2020/02/developer-surveys/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
@@ -612,57 +683,6 @@ public class SamplePart {
 &lt;p&gt;With this result, I wrap up this article. We do have more in our pipeline, so stay tuned for new updates. If you want to get involved, please reach out to us via our mailing list at &lt;a href=&quot;mailto:jkube-dev@eclipse.org&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;jkube-dev@eclipse.org&lt;/a&gt;, or our Gitter channel at &lt;a href=&quot;https://gitter.im/eclipse/jkube&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://gitter.im/eclipse/jkube#&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&quot;a2a_button_facebook&quot; href=&quot;https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fdevelopers.redhat.com%2Fblog%2F2020%2F01%2F28%2Fintroduction-to-eclipse-jkube-java-tooling-for-kubernetes-and-red-hat-openshift%2F&amp;amp;linkname=Introduction%20to%20Eclipse%20JKube%3A%20Java%20tooling%20for%20Kubernetes%20and%20Red%20Hat%20OpenShift&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot;&gt;&lt;/a&gt;&lt;a class=&quot;a2a_button_twitter&quot; href=&quot;https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fdevelopers.redhat.com%2Fblog%2F2020%2F01%2F28%2Fintroduction-to-eclipse-jkube-java-tooling-for-kubernetes-and-red-hat-openshift%2F&amp;amp;linkname=Introduction%20to%20Eclipse%20JKube%3A%20Java%20tooling%20for%20Kubernetes%20and%20Red%20Hat%20OpenShift&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Twitter&quot;&gt;&lt;/a&gt;&lt;a class=&quot;a2a_button_linkedin&quot; href=&quot;https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fdevelopers.redhat.com%2Fblog%2F2020%2F01%2F28%2Fintroduction-to-eclipse-jkube-java-tooling-for-kubernetes-and-red-hat-openshift%2F&amp;amp;linkname=Introduction%20to%20Eclipse%20JKube%3A%20Java%20tooling%20for%20Kubernetes%20and%20Red%20Hat%20OpenShift&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;LinkedIn&quot;&gt;&lt;/a&gt;&lt;a class=&quot;a2a_button_email&quot; href=&quot;https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fdevelopers.redhat.com%2Fblog%2F2020%2F01%2F28%2Fintroduction-to-eclipse-jkube-java-tooling-for-kubernetes-and-red-hat-openshift%2F&amp;amp;linkname=Introduction%20to%20Eclipse%20JKube%3A%20Java%20tooling%20for%20Kubernetes%20and%20Red%20Hat%20OpenShift&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Email&quot;&gt;&lt;/a&gt;&lt;a class=&quot;a2a_button_print&quot; href=&quot;https://www.addtoany.com/add_to/print?linkurl=https%3A%2F%2Fdevelopers.redhat.com%2Fblog%2F2020%2F01%2F28%2Fintroduction-to-eclipse-jkube-java-tooling-for-kubernetes-and-red-hat-openshift%2F&amp;amp;linkname=Introduction%20to%20Eclipse%20JKube%3A%20Java%20tooling%20for%20Kubernetes%20and%20Red%20Hat%20OpenShift&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Print&quot;&gt;&lt;/a&gt;&lt;a class=&quot;a2a_button_reddit&quot; href=&quot;https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fdevelopers.redhat.com%2Fblog%2F2020%2F01%2F28%2Fintroduction-to-eclipse-jkube-java-tooling-for-kubernetes-and-red-hat-openshift%2F&amp;amp;linkname=Introduction%20to%20Eclipse%20JKube%3A%20Java%20tooling%20for%20Kubernetes%20and%20Red%20Hat%20OpenShift&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Reddit&quot;&gt;&lt;/a&gt;&lt;a class=&quot;a2a_button_flipboard&quot; href=&quot;https://www.addtoany.com/add_to/flipboard?linkurl=https%3A%2F%2Fdevelopers.redhat.com%2Fblog%2F2020%2F01%2F28%2Fintroduction-to-eclipse-jkube-java-tooling-for-kubernetes-and-red-hat-openshift%2F&amp;amp;linkname=Introduction%20to%20Eclipse%20JKube%3A%20Java%20tooling%20for%20Kubernetes%20and%20Red%20Hat%20OpenShift&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Flipboard&quot;&gt;&lt;/a&gt;&lt;a class=&quot;a2a_dd addtoany_share_save addtoany_share&quot; href=&quot;https://www.addtoany.com/share#url=https%3A%2F%2Fdevelopers.redhat.com%2Fblog%2F2020%2F01%2F28%2Fintroduction-to-eclipse-jkube-java-tooling-for-kubernetes-and-red-hat-openshift%2F&amp;amp;title=Introduction%20to%20Eclipse%20JKube%3A%20Java%20tooling%20for%20Kubernetes%20and%20Red%20Hat%20OpenShift&quot;&gt;&lt;img alt=&quot;Share&quot; src=&quot;https://static.addtoany.com/buttons/favicon.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;https://developers.redhat.com/blog/2020/01/28/introduction-to-eclipse-jkube-java-tooling-for-kubernetes-and-red-hat-openshift/&quot; rel=&quot;nofollow&quot;&gt;Introduction to Eclipse JKube: Java tooling for Kubernetes and Red Hat OpenShift&lt;/a&gt; appeared first on &lt;a href=&quot;https://developers.redhat.com/blog&quot; rel=&quot;nofollow&quot;&gt;Red Hat Developer&lt;/a&gt;.&lt;/p&gt;</description>
 	<pubDate>Tue, 28 Jan 2020 08:00:33 +0000</pubDate>
-</item>
-<item>
-	<title>Wayne Beaton: Organizing Your Eclipse Foundation Open Source Project Team</title>
-	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5619</guid>
-	<link>https://waynebeaton.wordpress.com/2020/01/27/organizing-your-eclipse-foundation-open-source-project-team/</link>
-	<description>&lt;p&gt;The &lt;a href=&quot;https://www.eclipse.org/projects/dev_process/&quot;&gt;Eclipse Foundation Development Process&lt;/a&gt; (AKA, the Eclipse Development Process or EDP) says nothing about how teams should organize. &lt;/p&gt;
-
-
-
-&lt;div class=&quot;wp-block-image&quot;&gt;&lt;figure class=&quot;aligncenter size-large is-resized&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-5624&quot; height=&quot;225&quot; src=&quot;https://waynebeaton.files.wordpress.com/2020/01/image.png?w=549&quot; width=&quot;358&quot; /&gt;&lt;/figure&gt;&lt;/div&gt;
-
-
-
-&lt;p&gt;The EDP defines a &lt;em&gt;committer&lt;/em&gt; role: committers are those developers who have the ability to make decisions for the project (e.g., push commits to project Git repositories and configure build servers). We often say that the committers are the ones with the real power: they’re the ones that hold all of the keys to all of the project resources. With great power comes great responsibility, so we have a &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#elections-committer&quot;&gt;well-defined process&lt;/a&gt; by which a contributor may demonstrate to the existing project committers that they are worthy of joining them as a peer.&lt;/p&gt;
-
-
-
-&lt;p&gt;The EDP also defines a &lt;em&gt;project lead&lt;/em&gt; role: project leads are responsible for ensuring that the processes are being followed. So, for example, project leads need to ensure that committers are engaging in the &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#ip&quot;&gt;IP due diligence process&lt;/a&gt;. But they are also responsible for ensuring that committers are “playing nice”. That is, they need to ensure that the level playing field and vendor neutrality bits in the EDP are being observed, but the EDP does not explicitly grant project leads any special powers to make technical decisions on behalf of the project team. &lt;/p&gt;
-
-
-
-&lt;blockquote class=&quot;wp-block-quote&quot;&gt;&lt;p&gt;As the first link in the project leadership chain, one important power granted to project leads by the EDP is the ability to retire committers who are working against the interests of the team. This is essentially the &lt;em&gt;nuclear option&lt;/em&gt;  (&lt;a href=&quot;https://www.merriam-webster.com/dictionary/nuclear%20option&quot;&gt;per Merriam-Webster&lt;/a&gt;,  “an extreme option regarded as a drastic step or last resort”) and it should be used with care.&lt;/p&gt;&lt;/blockquote&gt;
-
-
-
-&lt;p&gt;Other than defining committers and project leads, the EDP says nothing about how teams organize. We expect that project teams sort this out for themselves.&lt;/p&gt;
-
-
-
-&lt;p&gt;While it is natural to have one or more committers become technical leaders in the project team, there is no formal &lt;em&gt;technical lead&lt;/em&gt; role defined in the EDP. Likewise, while it is natural for certain members of a specification project team to become leaders in the specification process, there is no formal notion of &lt;em&gt;specification lead&lt;/em&gt; (or “spec lead”) defined in the &lt;a href=&quot;https://www.eclipse.org/projects/efsp/&quot;&gt;Eclipse Foundation Specification Process&lt;/a&gt; (EFSP). Any de facto technical or specification lead does not have any special authority beyond that which is granted to them by the other project committers. &lt;/p&gt;
-
-
-
-&lt;p&gt;So the committers in a project team have some say over who their leaders are and what powers they grant to those leaders. While the role is not specifically defined for this sort of thing, the project lead role &lt;em&gt;could&lt;/em&gt; be granted decision making powers. It is completely reasonable for a project team to decide, for example, that somebody in the project lead role must approve of all commits and anybody with that role can mitigate potential rogue actions by rolling back commits. One of the key benefits of organizing in this manner is that project lead is an &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#elections-pl&quot;&gt;elected position&lt;/a&gt;, so project committers have a build-in process for capturing the decision to grant those extra powers.&lt;/p&gt;
-
-
-
-&lt;p&gt;So how does all of this work?&lt;/p&gt;
-
-
-
-&lt;p&gt;For many open source projects, the committers follow the natural leaders, and that’s the end of it. But when a more formal relationship is desired, it must be arrived at by consensus of the project team (via public channels) and documented clearly so that everybody can understand how the project team works (making it very clear how a project team works is a critically important aspect of growing diversity in your project team). If the project team decides, for example, that all committers must contribute their updates as pull requests that may only be merged by a project lead, that must be documented (it’s fairly common for project teams to require that pull requests from one committer be merged by a different committer). When the role is formally defined, it’s also important to document how a committer ascends to into that role (to be clear, in the spirit of vendor neutrality, this criteria cannot be based on employment status).&lt;/p&gt;
-
-
-
-&lt;p&gt;Note that any rules that a project team decides to adopt don’t have to apply homogeneously across the entire project; a specification project team could decide, for example, that all contributions of text to a specification document must be approved by project lead before they can be merged, but that all committers can just merge their contributions to an API.&lt;/p&gt;
-
-
-
-&lt;p&gt;While I have your attention… I’d like to also highlight that the Eclipse Development Process says nothing about day-to-day development within a project. It is the project team’s responsibility to decide things like development methodology, merit criteria for new committers and project leads, etc.. &lt;/p&gt;</description>
-	<pubDate>Mon, 27 Jan 2020 21:04:58 +0000</pubDate>
 </item>
 <item>
 	<title>vert.x project: Eclipse Vert.x 3.8.5</title>
