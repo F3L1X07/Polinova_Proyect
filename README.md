@@ -7,3 +7,6 @@ Creacion de la Carpeta de almacenamiento de los codigos del proyecto
 
 18/02/2020 12:26pm (FELIX)
 Limpieza y Ordenación de la Carpeta del Proyecto
+
+27/02/2020 (FELIX)
+Splash de la Aplicación Avanzada....
