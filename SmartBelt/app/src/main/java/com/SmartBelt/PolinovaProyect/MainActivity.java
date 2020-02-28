@@ -1,7 +1,10 @@
 package com.SmartBelt.PolinovaProyect;
 
 import android.os.Bundle;
+import android.util.Log;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -25,4 +28,27 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navView, navController);
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i("Information LOG", "Entrada al método onStart");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.i("Information LOG", "Entrada al método onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i("Information LOG", "Entrada al método onPause");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i("Information LOG", "Entrada al método onDestroy");
+    }
 }
