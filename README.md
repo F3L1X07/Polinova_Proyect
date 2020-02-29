@@ -11,3 +11,8 @@ Limpieza y Ordenación de la Carpeta del Proyecto
 27/02/2020 7:53pm (FELIX)
 Splash de la Aplicación Terminada
 Necesario cambio de imagen a una adecuada al proyecto (Diseño del Splash en Photoshop)
+
+29/02/2020 10:02am (FELIX)
+Finalización del Diseño de la Pantalla Principal de la Aplicación
+Necesario Creación del Menú global inferior (Barra de Navegación [Under])
+Necesario creación del evento del botón Get Started para transitar de activity
