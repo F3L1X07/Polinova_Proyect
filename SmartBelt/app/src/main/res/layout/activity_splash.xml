@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fantasy5"
+    android:background="@drawable/fantasy4"
     tools:context=".Splash">
 </androidx.constraintlayout.widget.ConstraintLayout>
