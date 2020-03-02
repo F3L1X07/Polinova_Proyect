@@ -22,3 +22,15 @@ Bitacora de Actualizaciones del Proyecto
 ★Necesario Ajuste del diseño para en la virtualización aparezcan todos los elementos
  que tengamos en pantalla dado que al virtualizar el menu del telefono, oculta los elementos
  colocados
+
+02/03/2020 5:00pm (FELIX)
+★Creación del activity Sign Up (Registro)
+★Necesario una revisión e investigación acerca de como ajustar a pantalla para el diseño
+ del activity
+★Necesario Terminar el acceso al activity Sign Up (Registro) y Sign In (Login) a través de los 
+ botones y textos indicados en el activity
+★Necesario Ajuste del diseño ajustando los elementos en la pantalla del activity Get Started
+ (Más Investigación)
+★Falta terminar la función del registro
+★Falta Hacer base de datos de registro y subirla a una plataforma virtual para el accesso remoto
+★Falta documento php con la programación de las funciones del Registro 
