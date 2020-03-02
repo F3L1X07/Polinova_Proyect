@@ -10,6 +10,7 @@ import android.view.WindowManager;
 
 public class Splash extends AppCompatActivity {
 
+    //Variable indicativa de la duración del Splash
     private final int DURACION_SPLASH = 2000;
 
     @Override
@@ -19,12 +20,12 @@ public class Splash extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_splash);
-        getSupportActionBar().hide();
 
+        //Despues del Splash Acceder al Activity seleccionado
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(Splash.this, MainActivity.class);
+                Intent intent = new Intent(Splash.this, Get_Start.class);
                 startActivity(intent);
                 finish();
             };
