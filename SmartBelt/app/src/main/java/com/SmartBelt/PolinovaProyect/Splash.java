@@ -11,7 +11,7 @@ import android.view.WindowManager;
 public class Splash extends AppCompatActivity {
 
     //Variable indicativa de la duración del Splash
-    private final int DURACION_SPLASH = 20;
+    private final int DURACION_SPLASH = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
