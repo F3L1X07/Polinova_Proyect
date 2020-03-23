@@ -17,7 +17,7 @@ if(empty($email))
 	exit("Para registrarse llenar el campo \"Email\"");
 }
 
-$consulta = "insert into register (user,password,email) values ('$Username_SU', '$Password_SU', '$Email_SU')";
+$consulta = "insert into register (User,Password,Email) values ('$Username_SU', '$Password_SU', '$Email_SU')";
 mysql_query($conexion,$consulta);
 
 $num = mysql_affected_rows($conexion);

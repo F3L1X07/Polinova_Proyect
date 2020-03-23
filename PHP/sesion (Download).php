@@ -4,13 +4,13 @@ $database="bd_prueba";
 $username="root";
 $password="";
 $json=array();
-	if(isset($_GET["user"]) && isset($_GET["pwd"])){
-		$user=$_GET['user'];
-		$pwd=$_GET['pwd'];
+	if(isset($_GET["User"]) && isset($_GET["Pasword"])){
+		$user=$_GET['User'];
+		$pwd=$_GET['Pasword'];
 		
 		$conexion=mysqli_connect($hostname,$username,$password,$database);
 		
-		$consulta="SELECT user, pwd, names FROM usuarios WHERE user= '{$user}' AND pwd = '{$pwd}'";
+		$consulta="SELECT User, Pasword, names FROM usuarios WHERE User= '{$user}' AND Pasword = '{$pwd}'";
 		$resultado=mysqli_query($conexion,$consulta);
 
 		if($consulta){
@@ -25,8 +25,8 @@ $json=array();
 
 
 		else{
-			$results["user"]='';
-			$results["pwd"]='';
+			$results["User"]='';
+			$results["Pasword"]='';
 			$results["names"]='';
 			$json['datos'][]=$results;
 			echo json_encode($json);
@@ -34,8 +34,8 @@ $json=array();
 		
 	}
 	else{
-		   	$results["user"]='';
-			$results["pwd"]='';
+		   	$results["User"]='';
+			$results["Pasword"]='';
 			$results["names"]='';
 			$json['datos'][]=$results;
 			echo json_encode($json);
