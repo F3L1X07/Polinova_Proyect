@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class Get_Start extends AppCompatActivity {
     Button GetStarted;
-TextView Sign_Up;
+    TextView Sign_Up;
 
 
     @Override
@@ -29,22 +29,13 @@ TextView Sign_Up;
 
         });
 
-        Sign_Up=(TextView)findViewById(R.id.Sign_Up_access1);
+        Sign_Up = (TextView)findViewById(R.id.Sign_Up_access1);
         Sign_Up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent Sign_Up =new Intent(Get_Start.this, Sign_Up.class);
+                Intent Sign_Up = new Intent(Get_Start.this, Sign_Up.class);
                 startActivity(Sign_Up);
             }
         });
-
-        /*GetStarted = (Button)findViewById(R.id.Sign_Up_access1);
-        GetStarted.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent GetStarted = new Intent(Get_Start.this, Sign_Up.class);
-                startActivity(GetStarted);
-            }
-        }); */
     }
 }
