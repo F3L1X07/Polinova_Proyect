@@ -21,7 +21,7 @@ Bitacora de Actualizaciones del Proyecto
 ★Colocación de la pantalla Get Started despues del Activity Splash
 ★Necesario: Ajuste del diseño para en la virtualización aparezcan todos los elementos
  que tengamos en pantalla dado que al virtualizar el menu del telefono, oculta los elementos
- colocados
+ colocados.
 
 02/03/2020 5:00pm (FELIX)
 ★Creación del activity Sign Up (Registro)
