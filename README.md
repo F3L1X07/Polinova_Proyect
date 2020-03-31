@@ -47,3 +47,7 @@ Bitacora de Actualizaciones del Proyecto
 	      (Datos del Paciente)
 ★Información: Restructuración de la aplicación (Agregar otra pantalla para el llenado de los 
 	      Datos del Paciente "Despues del Get Started e Inicio de Sesión")
+
+30/03/2020 5:32pm (Joselyne) 
+★Cambio de Activity Get Start a activity Sign Up con boton "Get Start".
+
