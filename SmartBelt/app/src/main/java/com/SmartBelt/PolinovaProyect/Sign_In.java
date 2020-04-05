@@ -14,13 +14,7 @@ public class Sign_In extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
 
-     /*   txtNoticePrivacy = findViewById(R.id.txtNoticePrivacy);
-        txtNoticePrivacy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Sign_In.this, Popup_Notice_Of_Privacy.class));
-            }
-        }); */
+
 
     }
 }
