@@ -4,3 +4,7 @@ Bitácora de Errores del Proyecto
 
 04/04/2020 11:40pm (JOSELYNE)
 ★[Iserte Error aquí]
+
+06/04/2020 06:49pm (FELIX)
+★Error en la virtualización del proyecto afectando la manera en la que se distribuyen los
+ botones de la pantalla principal "Get Started"

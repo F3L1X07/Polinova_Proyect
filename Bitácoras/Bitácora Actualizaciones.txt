@@ -54,3 +54,15 @@ Bitácora de Actualizaciones del Proyecto
 ★Falta: Cambiar los ImageView a sus imagenes respectivas
 ★Falta: Diseñar las imagenes de la Pantalla Get Started para su finalización
 
+05/04/2020 11:00pm (JOSELYNE)
+★Realización de los Pop Up de los TextView "Privacy"
+
+06/04/2020 06:35pm (FELIX)
+★Cambio en el diseño de la pantalla principal en "Smartbelt 2.0"
+★Problema: Apariencia al virtualizar sufre una alteración de la cual se desconoce
+	   su origen o solución
+★Realizacion del Registro en el proyecto "Smartbelt 2.0"
+★Falta: Realizacion del Login en el proyecto "Smartbelt 2.0"
+★Falta: Pasar el codigo del Pop Up del Proyecto "Smartbelt" al Proyecto "Smartbelt 2.0"
+★Falta: Hacer funcionar el Login y el Registro de los Proyectos "Smartbelt y Smartbelt 2.0"
+
