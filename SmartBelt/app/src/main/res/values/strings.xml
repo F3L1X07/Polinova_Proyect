@@ -9,6 +9,6 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
-    
-   <string name="text_notice_of_privacy">"Este es el texto del aviso de privacidad. Joselyne Cruz de Alba......</string>
+
+    <string name="text_notice_of_privacy">"Este es el texto del aviso de privacidad. Joselyne Cruz de Alba......</string>
 </resources>
