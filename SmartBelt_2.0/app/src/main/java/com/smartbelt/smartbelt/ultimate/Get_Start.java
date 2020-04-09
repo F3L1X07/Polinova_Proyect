@@ -7,11 +7,12 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class Get_Start extends AppCompatActivity {
-
+private ImageView ventana_privacy;
     /*private TextView Titulo1;
     private Typeface Brightly;*/
 
@@ -47,6 +48,14 @@ public class Get_Start extends AppCompatActivity {
             public void onClick(View v) {
                Intent Sign_Up = new Intent(Get_Start.this, Sign_Up.class);
                startActivity(Sign_Up);
+            }
+        });
+
+        ventana_privacy = findViewById(R.id.Info_btn);
+        ventana_privacy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Get_Start.this, Pop_up_privacy.class));
             }
         });
     }

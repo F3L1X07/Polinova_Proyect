@@ -6,11 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class Sign_In extends AppCompatActivity {
 
     ImageView Back;
-
+private TextView privacy_ventana;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,5 +26,14 @@ public class Sign_In extends AppCompatActivity {
                 startActivity(GetStarted);
             }
         });
+
+
+        privacy_ventana = findViewById(R.id.Privacy_SI);
+        privacy_ventana.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        startActivity(new Intent(Sign_In.this, Pop_up_privacy.class));
+    }
+});
     }
 }
