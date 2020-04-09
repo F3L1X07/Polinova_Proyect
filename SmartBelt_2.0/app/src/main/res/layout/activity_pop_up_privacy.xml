@@ -37,10 +37,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_width="380dp"
         android:layout_height="554dp"
-
         android:textColor="#191919"
-
-
         android:text="This Privacy Policy describes how and when we collect, use and share your information on our web pages, SMS, APIs, email notifications, buttons, widgets, advertisements, commerce services and in our other services linked to this Policy (called collectively the and how our partners and third parties do it. For example, you send us information when you use our Services through the Internet, SMS or an application such as Twitter for Mac, Twitter for Android or TweetDeck. By using any of our Services, you consent to the collection, transfer, manipulation, storage, disclosure and other uses of your information as described in this Privacy Policy. This includes any information you choose to provide that is considered confidential under applicable law.
 Whichever country you reside in, you authorize us to transfer, store and use your information in Mexico and in any other country in which we operate. In some of these countries, data protection and privacy laws and regulations on when government authorities can access data may differ from those in the country in which you live.
 We collect the content and other information you provide when you use the Services, including information about yourself and others, such as the data you provide when creating an account and the content you create or provide through the App, including photos
