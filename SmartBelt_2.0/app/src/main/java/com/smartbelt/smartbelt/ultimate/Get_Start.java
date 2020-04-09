@@ -7,15 +7,16 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class Get_Start extends AppCompatActivity {
 
-    private TextView Titulo1;
-    private Typeface Brightly;
+    /*private TextView Titulo1;
+    private Typeface Brightly;*/
 
-    Button GetStarted;
-    TextView Sign_Up; 
+    LinearLayout Login;
+    LinearLayout Sign_Up;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,22 +32,22 @@ public class Get_Start extends AppCompatActivity {
         Titulo1.setTypeface(Brightly);*/
 
         //Cambio de Activity (Botones)
-        /*GetStarted = (Button)findViewById(R.id.Login_btn);
-        GetStarted.setOnClickListener(new View.OnClickListener() {
+        Login = (LinearLayout) findViewById(R.id.Login_btn);
+        Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                     Intent GetStarted = new Intent (Get_Start.this, Sign_In.class);
                     startActivity(GetStarted);
                 }
-            });*/
+            });
 
-       /* Sign_Up = (TextView)findViewById(R.id.SignUp_btn);
+        Sign_Up = (LinearLayout) findViewById(R.id.SignUp_btn);
         Sign_Up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                Intent Sign_Up = new Intent(Get_Start.this, Sign_Up.class);
                startActivity(Sign_Up);
             }
-        });*/
+        });
     }
 }

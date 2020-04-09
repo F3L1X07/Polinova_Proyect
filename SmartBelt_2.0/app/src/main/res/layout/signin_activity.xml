@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF9800"
-    tools:context=".Sign_Up">
+    android:background="#F0EC296D"
+    tools:context=".Sign_In">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/SignUp_Text"
+            android:id="@+id/SignIn_Text"
             android:layout_width="202dp"
             android:layout_height="wrap_content"
 
@@ -23,7 +23,7 @@
             android:layout_marginTop="29dp"
             android:layout_marginEnd="103dp"
 
-            android:text="Sign Up"
+            android:text="Sign In"
             android:textAlignment="center"
             android:textColor="#FFF"
             android:textSize="50sp"/>
@@ -33,42 +33,42 @@
             android:layout_width="186dp"
             android:layout_height="38dp"
 
-            android:layout_alignStart="@+id/SignUp_Text"
-            android:layout_alignBottom="@+id/SignUp_Text"
+            android:layout_alignStart="@+id/SignIn_Text"
+            android:layout_alignBottom="@+id/SignIn_Text"
 
             android:layout_alignParentTop="true"
             android:layout_marginStart="-90dp"
             android:layout_marginTop="29dp"
             android:layout_marginEnd="-90dp"
             android:layout_marginBottom="29dp"
-            android:layout_toStartOf="@+id/SignUp_Text"
+            android:layout_toStartOf="@+id/SignIn_Text"
             android:scaleType="fitXY"
             android:src="@drawable/back" />
 
         <ImageView
-            android:id="@+id/SignUp_Image"
+            android:id="@+id/SignIn_Image"
             android:layout_width="wrap_content"
             android:layout_height="267dp"
 
-            android:layout_alignStart="@+id/SignUp_Text"
-            android:layout_alignTop="@+id/SignUp_Text"
-            android:layout_alignEnd="@+id/SignUp_Text"
+            android:layout_alignStart="@+id/SignIn_Text"
+            android:layout_alignTop="@+id/SignIn_Text"
+            android:layout_alignEnd="@+id/SignIn_Text"
             android:layout_marginStart="-42dp"
             android:layout_marginTop="100dp"
             android:layout_marginEnd="-42dp"
             android:layout_marginBottom="-300dp"
 
             android:scaleType="fitXY"
-            android:src="@drawable/sing_up" />
+            android:src="@drawable/sing_in" />
 
         <EditText
-            android:id="@+id/Username_SU"
+            android:id="@+id/Username_SI"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:layout_below="@+id/SignUp_Image"
-            android:layout_alignStart="@+id/SignUp_Image"
-            android:layout_alignEnd="@+id/SignUp_Image"
+            android:layout_below="@+id/SignIn_Image"
+            android:layout_alignStart="@+id/SignIn_Image"
+            android:layout_alignEnd="@+id/SignIn_Image"
             android:layout_marginStart="0dp"
             android:layout_marginTop="320dp"
             android:layout_marginEnd="0dp"
@@ -80,31 +80,13 @@
             android:textSize="25sp" />
 
         <EditText
-            android:id="@+id/Email_SU"
+            android:id="@+id/Password_SI"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:layout_below="@+id/Username_SU"
-            android:layout_alignStart="@+id/SignUp_Image"
-            android:layout_alignEnd="@+id/SignUp_Image"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginEnd="0dp"
-
-            android:drawableLeft="@drawable/email_icon_white"
-            android:hint="Email"
-            android:textColorHint="#FFF"
-            android:textColor="#FFF"
-            android:textSize="25sp" />
-
-        <EditText
-            android:id="@+id/Password_SU"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_below="@+id/Email_SU"
-            android:layout_alignStart="@+id/SignUp_Image"
-            android:layout_alignEnd="@+id/SignUp_Image"
+            android:layout_below="@+id/Username_SI"
+            android:layout_alignStart="@+id/SignIn_Image"
+            android:layout_alignEnd="@+id/SignIn_Image"
             android:layout_marginStart="0dp"
             android:layout_marginTop="2dp"
             android:layout_marginEnd="0dp"
@@ -116,32 +98,32 @@
             android:textSize="25sp" />
 
         <Button
-            android:id="@+id/Register_btn"
+            android:id="@+id/Login_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:layout_below="@+id/Password_SU"
-            android:layout_alignStart="@+id/SignUp_Image"
-            android:layout_alignEnd="@+id/SignUp_Image"
+            android:layout_below="@+id/Password_SI"
+            android:layout_alignStart="@+id/SignIn_Image"
+            android:layout_alignEnd="@+id/SignIn_Image"
             android:layout_marginStart="0dp"
             android:layout_marginTop="62dp"
             android:layout_marginEnd="0dp"
 
             android:background="@drawable/boton_redondo"
             android:textAlignment="center"
-            android:text="Register"
+            android:text="Login"
             android:textSize="26sp"
             android:textStyle="bold"
             android:textColor="#FFF"/>
 
         <TextView
-            android:id="@+id/Privacy_SU"
+            android:id="@+id/Privacy_SI"
             android:layout_width="wrap_content"
             android:layout_height="64dp"
 
-            android:layout_below="@+id/Register_btn"
-            android:layout_alignStart="@+id/SignUp_Image"
-            android:layout_alignEnd="@+id/SignUp_Image"
+            android:layout_below="@+id/Login_btn"
+            android:layout_alignStart="@+id/SignIn_Image"
+            android:layout_alignEnd="@+id/SignIn_Image"
             android:layout_marginStart="0dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="0dp"
@@ -152,4 +134,5 @@
             android:textSize="20sp"/>
 
     </RelativeLayout>
+
 </ScrollView>
