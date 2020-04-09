@@ -9,12 +9,21 @@
 
 
     <ImageView
+        android:id="@+id/Equis_regreso"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/x_circulo_318_2105" />
+
+    <ImageView
         android:id="@+id/imageView"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
         android:layout_width="90dp"
         android:layout_height="70dp"
-        android:background="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#07FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/info2"
