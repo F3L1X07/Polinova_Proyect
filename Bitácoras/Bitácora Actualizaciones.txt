@@ -66,3 +66,10 @@ Bitácora de Actualizaciones del Proyecto
 ★Falta: Pasar el codigo del Pop Up del Proyecto "Smartbelt" al Proyecto "Smartbelt 2.0"
 ★Falta: Hacer funcionar el Login y el Registro de los Proyectos "Smartbelt y Smartbelt 2.0"
 
+09/04/2020 12:51am (FELIX)
+★Finalización de los diseños y funciones secundarias (Botones) de los Activity "Sign Up", "Sign In"
+ y "Get Started"
+★Falta: Pop Up de los Activities "Sign Up", "Sign In" y "Get Started"
+★Falta: Realizar el Inicio de Sesión y el Registro a la base de datos
+
+<!-- Necesario para continuar con el proyecto, Fase 2 (Menu Principal y Fragments) -->

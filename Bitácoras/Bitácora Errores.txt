@@ -8,3 +8,8 @@ Bitácora de Errores del Proyecto
 06/04/2020 06:49pm (FELIX)
 ★Error en la virtualización del proyecto afectando la manera en la que se distribuyen los
  botones de la pantalla principal "Get Started"
+
+09/04/2020 12:49am (FELIX)
+★El error "Error en la virtualización del proyecto afectando la manera en la que se distribuyen los
+ botones de la pantalla principal "Get Started" parece que solo se ve afectado en mi pantalla de virtualización,
+ se espera que la virtualización fisica no suceda lo mismo
