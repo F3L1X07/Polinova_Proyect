@@ -30,5 +30,7 @@ private ImageView equis;
                 startActivity(new Intent(Pop_up_privacy.this, Get_Start.class));
             }
         });
+
+        
     }
 }
