@@ -32,7 +32,7 @@ private ImageView equis;
         });
 
 
-        
+
     }
 }
 
