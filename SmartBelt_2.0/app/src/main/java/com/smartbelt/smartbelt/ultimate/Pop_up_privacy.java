@@ -9,7 +9,9 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class Pop_up_privacy extends AppCompatActivity {
-private ImageView equis;
+
+    private ImageView Close;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,8 +25,8 @@ private ImageView equis;
 
         getWindow().setLayout((int)(ancho * 0.9), (int)(largo *0.8));
 
-        equis =findViewById(R.id.Equis_regreso);
-        equis.setOnClickListener(new View.OnClickListener() {
+        Close =findViewById(R.id.Close_Privacy);
+        Close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Pop_up_privacy.this, Get_Start.class));

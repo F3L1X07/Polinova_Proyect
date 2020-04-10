@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,55 +7,79 @@
     android:orientation="vertical"
     tools:context=".Pop_up_privacy">
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
-    <ImageView
-        android:id="@+id/Equis_regreso"
-        android:layout_width="40dp"
-        android:layout_height="30dp"
-        android:layout_gravity="right"
-        android:background="#FFFFFF"
-        android:backgroundTint="#FFFFFF"
-        app:srcCompat="@drawable/x_circulo_318_2105" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="90dp"
-        android:layout_height="70dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="#07FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/info2"
-        tools:layout_editor_absoluteY="21dp" />
+            <ImageView
+                android:id="@+id/Close_Privacy"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="32dp"
-        android:text="NOTICE OF PRIVACY"
-        android:textSize="20dp"
-        android:textAlignment="center"
-        android:layout_marginTop="8dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
 
-        android:textColor="#1d1d1d"
-        />
+                android:layout_gravity="right"
+                android:background="#FFF"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/x_circulo_318_2105" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="380dp"
-        android:layout_height="554dp"
-        android:textColor="#191919"
-        android:text="This Privacy Policy describes how and when we collect, use and share your information on our web pages, SMS, APIs, email notifications, buttons, widgets, advertisements, commerce services and in our other services linked to this Policy (called collectively the and how our partners and third parties do it. For example, you send us information when you use our Services through the Internet, SMS or an application such as Twitter for Mac, Twitter for Android or TweetDeck. By using any of our Services, you consent to the collection, transfer, manipulation, storage, disclosure and other uses of your information as described in this Privacy Policy. This includes any information you choose to provide that is considered confidential under applicable law.
-Whichever country you reside in, you authorize us to transfer, store and use your information in Mexico and in any other country in which we operate. In some of these countries, data protection and privacy laws and regulations on when government authorities can access data may differ from those in the country in which you live.
-We collect the content and other information you provide when you use the Services, including information about yourself and others, such as the data you provide when creating an account and the content you create or provide through the App, including photos
+            <ImageView
+                android:id="@+id/Info_Image"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
 
- Communication.  We use the information we have, including your contact information, to communicate with you regarding our Services, to send you marketing messages that we believe may be of interest to you, and to inform you of our products, services, policies and conditions.  We also use the information we have to respond to you when you contact us.
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="50dp"
 
- Promote safety and security.  It is important to clarify that we use the information we have to promote security and protection in our Services and to investigate the use of our Services, including any suspicious activity or possible violations of our Conditions and policies."
-        android:textSize="12dp" />
+                android:layout_gravity="center"
+                android:background="#07FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/info2"
+                tools:layout_editor_absoluteY="21dp" />
 
+            <TextView
+                android:id="@+id/Privacy_Text"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
 
+                android:layout_below="@+id/Info_Image"
+                android:layout_alignStart="@+id/Info_Image"
+                android:layout_alignEnd="@+id/Info_Image"
+                android:layout_marginTop="0dp"
 
-</LinearLayout>
+                android:text="NOTICE OF PRIVACY"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#1d1d1d" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/Privacy_Text"
+                android:layout_alignStart="@+id/Privacy_Text"
+                android:layout_alignEnd="@+id/Privacy_Text"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+
+                android:textColor="#191919"
+                android:text="@string/Privacy_Text"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

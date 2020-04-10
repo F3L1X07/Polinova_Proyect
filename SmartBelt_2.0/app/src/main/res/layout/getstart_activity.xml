@@ -197,7 +197,7 @@
                 android:layout_below="@+id/Info_btn"
                 android:layout_alignStart="@id/Info_btn"
                 android:layout_alignEnd="@id/Info_btn"
-                android:layout_marginTop="-10dp"
+                android:layout_marginTop="0dp"
                 android:layout_marginStart="-100dp"
                 android:layout_marginEnd="-100dp"
                 android:layout_marginBottom="30dp"
