@@ -3,73 +3,84 @@ Proyecto Innovador de la Escuela Politécnica de Guadalajara
 Bitácora de Actualizaciones del Proyecto
 
 17/02/2020 8:19pm (FELIX)
-★Creacion de la Carpeta de almacenamiento de los codigos del proyecto
+♣Creacion de la Carpeta de almacenamiento de los codigos del proyecto
 
 18/02/2020 12:26pm (FELIX)
-★Limpieza y Ordenación de la Carpeta del Proyecto
+♣Limpieza y Ordenación de la Carpeta del Proyecto
 
 27/02/2020 7:53pm (FELIX)
-★Splash de la Aplicación Terminada
-★Necesario: cambio de imagen a una adecuada al proyecto (Diseño del Splash en Photoshop)
+♣Splash de la Aplicación Terminada
+♣Necesario: cambio de imagen a una adecuada al proyecto (Diseño del Splash en Photoshop)
 
 29/02/2020 10:02am (FELIX)
-★Finalización: del Diseño de la Pantalla Principal de la Aplicación
-★Necesario: Creación del Menú global inferior (Barra de Navegación [Under])
-★Necesario: creación del evento del botón Get Started para transitar de activity
+♣Finalización: del Diseño de la Pantalla Principal de la Aplicación
+♣Necesario: Creación del Menú global inferior (Barra de Navegación [Under])
+♣Necesario: creación del evento del botón Get Started para transitar de activity
 
 01/03/2020 6:30pm (FELIX)
-★Colocación de la pantalla Get Started despues del Activity Splash
-★Necesario: Ajuste del diseño para en la virtualización aparezcan todos los elementos.
- que tengamos en pantalla dado que al virtualizar el menu del telefono, oculta los elementos
- colocados.
+♣Colocación de la pantalla Get Started despues del Activity Splash
+♣Necesario: Ajuste del diseño para en la virtualización aparezcan todos los elementos.
+ 	    que tengamos en pantalla dado que al virtualizar el menu del telefono, oculta los elementos
+	    colocados.
 
 02/03/2020 5:00pm (FELIX)
-★Creación del activity Sign Up (Registro)
-★Necesario: una revisión e investigación acerca de como ajustar a pantalla para el diseño
- del activity
-★Necesario: Terminar el acceso al activity Sign Up (Registro) y Sign In (Login) a través de los 
- botones y textos indicados en el activity
-★Necesario: Ajuste del diseño ajustando los elementos en la pantalla del activity Get Started
- (Más Investigación)
-★Falta: terminar la función del registro
-★Falta: Hacer base de datos de registro y subirla a una plataforma virtual para el accesso remoto
-★Falta: documento php con la programación de las funciones del Registro 
+♣Creación del activity Sign Up (Registro)
+♣Necesario: Una revisión e investigación acerca de como ajustar a pantalla para el diseño
+ 	    del activity
+♣Necesario: Terminar el acceso al activity Sign Up (Registro) y Sign In (Login) a través de los 
+ 	    botones y textos indicados en el activity
+♣Necesario: Ajuste del diseño ajustando los elementos en la pantalla del activity Get Started
+ 	    (Más Investigación)
+♣Falta: terminar la función del registro
+♣Falta: Hacer base de datos de registro y subirla a una plataforma virtual para el accesso remoto
+♣Falta: documento php con la programación de las funciones del Registro 
 
 05/03/2020 12:08am (FELIX)
-★Creación de las pantalla Sing Up y Sign In terminadas (Solo Diseño)
-★Creación de los documentos php para el registro y login de la aplicación
-★Base de Datos Básica (ID, Username, Password, Email) creada
-★Completado: revisión e investigación acerca de como ajustar a pantalla para el diseño
+♣Creación de las pantalla Sing Up y Sign In terminadas (Solo Diseño)
+♣Creación de los documentos php para el registro y login de la aplicación
+♣Base de Datos Básica (ID, Username, Password, Email) creada
+♣Completado: revisión e investigación acerca de como ajustar a pantalla para el diseño
 	     del activity
-★Necesario: Ajuste del diseño ajustando los elementos en la pantalla del activity Get Started
-★Necesario: Terminar las funciones de Registro y Login para la Base de Datos
-★Información: Preparase mentalmente para un aumento en la estructura de la Base de Datos
+♣Necesario: Ajuste del diseño ajustando los elementos en la pantalla del activity Get Started
+♣Necesario: Terminar las funciones de Registro y Login para la Base de Datos
+♣Información: Preparase mentalmente para un aumento en la estructura de la Base de Datos
 	      (Datos del Paciente)
-★Información: Restructuración de la aplicación (Agregar otra pantalla para el llenado de los 
+♣Información: Restructuración de la aplicación (Agregar otra pantalla para el llenado de los 
 	      Datos del Paciente "Despues del Get Started e Inicio de Sesión")
 
 30/03/2020 5:32pm (JOSELYNE) 
-★Finalización de los Cambios de Activities de la Pantalla Get Started 
+♣Finalización de los Cambios de Activities de la Pantalla Get Started 
  (Botón "btn_GetStarted" y TextView "Sign_Up_access1")
-★Falta: Cambiar los ImageView a sus imagenes respectivas
-★Falta: Diseñar las imagenes de la Pantalla Get Started para su finalización
+♣Falta: Cambiar los ImageView a sus imagenes respectivas
+♣Falta: Diseñar las imagenes de la Pantalla Get Started para su finalización
 
 05/04/2020 11:00pm (JOSELYNE)
-★Realización de los Pop Up de los TextView "Privacy"
+♣Realización de los Pop Up de los TextView "Privacy"
 
 06/04/2020 06:35pm (FELIX)
-★Cambio en el diseño de la pantalla principal en "Smartbelt 2.0"
-★Problema: Apariencia al virtualizar sufre una alteración de la cual se desconoce
+♣Cambio en el diseño de la pantalla principal en "Smartbelt 2.0"
+♦Problema: Apariencia al virtualizar sufre una alteración de la cual se desconoce
 	   su origen o solución
-★Realizacion del Registro en el proyecto "Smartbelt 2.0"
-★Falta: Realizacion del Login en el proyecto "Smartbelt 2.0"
-★Falta: Pasar el codigo del Pop Up del Proyecto "Smartbelt" al Proyecto "Smartbelt 2.0"
-★Falta: Hacer funcionar el Login y el Registro de los Proyectos "Smartbelt y Smartbelt 2.0"
+♣Realizacion del Registro en el proyecto "Smartbelt 2.0"
+♣Falta: Realizacion del Login en el proyecto "Smartbelt 2.0"
+♣Falta: Pasar el codigo del Pop Up del Proyecto "Smartbelt" al Proyecto "Smartbelt 2.0"
+♣Falta: Hacer funcionar el Login y el Registro de los Proyectos "Smartbelt y Smartbelt 2.0"
 
 09/04/2020 12:51am (FELIX)
-★Finalización de los diseños y funciones secundarias (Botones) de los Activity "Sign Up", "Sign In"
+♣Finalización de los diseños y funciones secundarias (Botones) de los Activity "Sign Up", "Sign In"
  y "Get Started"
-★Falta: Pop Up de los Activities "Sign Up", "Sign In" y "Get Started"
-★Falta: Realizar el Inicio de Sesión y el Registro a la base de datos
+♣Falta: Pop Up de los Activities "Sign Up", "Sign In" y "Get Started"
+♣Falta: Realizar el Inicio de Sesión y el Registro a la base de datos
 
-<!-- Necesario para continuar con el proyecto, Fase 2 (Menu Principal y Fragments) -->
+11/04/2020 12:58am (FELIX)
+♣Finalización de los funcionamientos de todos los botones de la Aplicación y Diseños Temporales (Design 1.0.1),
+ no se encuentran problemas al respecto
+♣Finalización de todos los Pop Up utilizados hasta el momento
+♣Falta: Realizar el Inicio de Sesión y el Registro a la base de datos (Ultimos pasos necesarios para pasar
+ 	a la Fase 2)
+♠Anotación: Se Espera realizar un cambio de diseño antes de entregar la aplicación (Si hay tiempo) mejorando
+ 	    las interfaces visuales que se tienen hasta el momento
+♦Problema: Se encontro un problema de compartibilidad con Android Studio.
+ 	   Para mas información ver la Bitácora de Errores
+
+★♣♠♥♦♪ΩΠ§∆ <!-- Necesario para continuar con el proyecto, Fase 2 (Menu Principal y Fragments) --> ∆§ΠΩ♪♦♥♠♣★
