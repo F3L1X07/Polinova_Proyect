@@ -9,15 +9,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class Pop_up_privacy extends AppCompatActivity {
+public class PopUp_Information extends AppCompatActivity {
 
-    private ImageView Close;
+    private ImageView Exit;
     private Button Accept;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pop_up_privacy);
+        setContentView(R.layout.popup_information_activity);
 
         DisplayMetrics medidasVentana = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(medidasVentana);
@@ -27,11 +27,11 @@ public class Pop_up_privacy extends AppCompatActivity {
 
         getWindow().setLayout((int)(ancho * 0.85), (int)(largo *0.8));
 
-        Close = findViewById(R.id.Close_Privacy);
-        Close.setOnClickListener(new View.OnClickListener() {
+        Exit = findViewById(R.id.Exit_Image);
+        Exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Pop_up_privacy.this, Sign_In.class));
+                startActivity(new Intent(PopUp_Information.this, Get_Start.class));
             }
         });
 
@@ -39,10 +39,8 @@ public class Pop_up_privacy extends AppCompatActivity {
         Accept.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Pop_up_privacy.this, Sign_In.class));
+                startActivity(new Intent(PopUp_Information.this, Get_Start.class));
             }
         });
-
     }
 }
-

@@ -12,12 +12,13 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class Get_Start extends AppCompatActivity {
-private ImageView ventana_privacy;
+
+    private ImageView App_Info;
     /*private TextView Titulo1;
     private Typeface Brightly;*/
 
-    LinearLayout Login;
-    LinearLayout Sign_Up;
+    private LinearLayout Login;
+    private LinearLayout Sign_Up;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,11 +52,11 @@ private ImageView ventana_privacy;
             }
         });
 
-        ventana_privacy = findViewById(R.id.Info_btn);
-        ventana_privacy.setOnClickListener(new View.OnClickListener() {
+        App_Info = findViewById(R.id.Info_btn);
+        App_Info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Get_Start.this, Pop_up_privacy.class));
+                startActivity(new Intent(Get_Start.this, PopUp_Information.class));
             }
         });
     }

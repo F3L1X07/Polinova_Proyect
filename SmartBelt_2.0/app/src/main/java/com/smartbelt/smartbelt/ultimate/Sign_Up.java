@@ -10,8 +10,9 @@ import android.widget.TextView;
 
 public class Sign_Up extends AppCompatActivity {
 
-    ImageView Back;
-private TextView privacy_ventana;
+    private ImageView Back;
+    private TextView privacy_ventana;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +31,7 @@ private TextView privacy_ventana;
         privacy_ventana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Sign_Up.this, Pop_up_privacy.class));
+                startActivity(new Intent(Sign_Up.this, PopUp_Privacy.class));
             }
         });
 
