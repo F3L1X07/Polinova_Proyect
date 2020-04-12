@@ -31,11 +31,11 @@ public class Pop_up_privacy extends AppCompatActivity {
         Close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD
+
                 onBackPressed();
-=======
+
                 startActivity(new Intent(Pop_up_privacy.this, Sign_In.class));
->>>>>>> 71011cf47c0ecd22ee908cd6f83f6de154526bd3
+
             }
         });
 

@@ -34,16 +34,13 @@
         como para las personas que padecen dicha enfermedad
     </string>
 
-<<<<<<< HEAD
-     Promote safety and security.  It is important to clarify that we use the information we have to promote security and protection in our Services and to investigate the use of our Services, including any suspicious activity or possible violations of our Conditions and policies.</string>
-    <string name="Info_App">
-
-Smart Belt is a tool that aims to assist families and geriatric caregivers in the supervision and care of people of the third age or with chronic and severe diseases that require it.
-
-Smart Belt is an app linked to the special Smart Belt belt, in order for the person in charge / caregiver to carry out all the settings, records, administration and supervision of their functions, including: personal account management , medical history log, medication log and administration, pending medical studies and inquiries, scheduled alarms and reminders, belt location map display, and general system settings.
+<string name="About_Us_1">
+    SmartBelt is an application linked to the SmartBelt belt where the patients caregiver administers and carries out all the settings, records, administration and supervision of its functions, including: personal account management, medical history record, registration and administration of medications, pending medical studies and consultations, scheduled alarms and reminders, display on the map of the location of the belt, and general system settings.
 </string>
 
-=======
->>>>>>> 71011cf47c0ecd22ee908cd6f83f6de154526bd3
+    <string name="About_Us_2">
+We are the perfect tool to help families and geriatric caregivers in the supervision and care of people of the third age or with chronic and severe diseases that require it.
+</string>
+
 </resources>
 

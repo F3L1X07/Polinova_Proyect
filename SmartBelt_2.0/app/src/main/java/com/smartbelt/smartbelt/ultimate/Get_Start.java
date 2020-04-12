@@ -56,11 +56,11 @@ public class Get_Start extends AppCompatActivity {
         App_Info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD
-                startActivity(new Intent(Get_Start.this, Popup_Info_App.class));
-=======
+
                 startActivity(new Intent(Get_Start.this, PopUp_Information.class));
->>>>>>> 71011cf47c0ecd22ee908cd6f83f6de154526bd3
+
+                startActivity(new Intent(Get_Start.this, PopUp_Information.class));
+
             }
         });
     }
