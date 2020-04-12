@@ -3,13 +3,23 @@ Proyecto Innovador de la Escuela Politécnica de Guadalajara
 Bitácora de Errores del Proyecto
 
 04/04/2020 11:40pm (JOSELYNE)
-★[Iserte Error aquí]
+♠[Iserte Error aquí]
 
 06/04/2020 06:49pm (FELIX)
-★Error en la virtualización del proyecto afectando la manera en la que se distribuyen los
+♠Error en la virtualización del proyecto afectando la manera en la que se distribuyen los
  botones de la pantalla principal "Get Started"
 
 09/04/2020 12:49am (FELIX)
-★El error "Error en la virtualización del proyecto afectando la manera en la que se distribuyen los
- botones de la pantalla principal "Get Started" parece que solo se ve afectado en mi pantalla de virtualización,
+♠El error [Error en la virtualización del proyecto afectando la manera en la que se distribuyen los
+ botones de la pantalla principal "Get Started"] parece que solo se ve afectado en mi pantalla de virtualización,
  se espera que la virtualización fisica no suceda lo mismo
+
+11/04/2020 1:00am (FELIX)
+♠Error en la virtualización fisica de Android Studio
+ Se trató de realizar una virtualización en dispositivo fisico para evitar problemas en la virtualización del
+ dispositivo virtual, Ya que este genera sobrecalentamiento en la computadora y problemas en la velocidad de reacción
+ de la misma. Android Studio no detecta el dispositivo al conectarlo a través del cable USB a la PC, por lo cual
+ se desconoce si es un problema de la versión de Android Studio, un SDK o Un problema general de la PC.
+ Se necesita Investigación, esta acción nos podria servir en un futuro cercano.
+
+★♣♠♥♦♪ΩΠ§∆ <!-- Bitácora de Errores --> ∆§ΠΩ♪♦♥♠♣★
