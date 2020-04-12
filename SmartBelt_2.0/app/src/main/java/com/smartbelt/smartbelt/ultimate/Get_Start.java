@@ -55,7 +55,7 @@ private ImageView ventana_privacy;
         ventana_privacy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Get_Start.this, Pop_up_privacy.class));
+                startActivity(new Intent(Get_Start.this, Popup_Info_App.class));
             }
         });
     }

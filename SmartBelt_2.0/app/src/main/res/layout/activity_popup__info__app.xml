@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Popup_Info_App">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Close_Privacy"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+
+                android:layout_gravity="right"
+                android:background="#FFF"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/x_circulo_318_2105" />
+
+            <ImageView
+                android:id="@+id/Info_Image"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="50dp"
+                android:background="#07FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/info"
+                tools:layout_editor_absoluteY="21dp" />
+
+
+
+            <TextView
+                android:id="@+id/Privacy_Text"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+
+                android:layout_below="@+id/Info_Image"
+                android:layout_alignStart="@+id/Info_Image"
+                android:layout_alignEnd="@+id/Info_Image"
+                android:layout_marginTop="0dp"
+
+                android:text="About Us"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#1d1d1d" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/Privacy_Text"
+                android:layout_alignStart="@+id/Privacy_Text"
+                android:layout_alignEnd="@+id/Privacy_Text"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+
+                android:textColor="#191919"
+                android:text="@string/Info_App"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/logo"
+
+                android:layout_below="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_alignEnd="@+id/textView2"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

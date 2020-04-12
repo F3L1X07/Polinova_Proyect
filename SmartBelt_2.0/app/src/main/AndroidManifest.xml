@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Pop_up_privacy"
-            android:theme="@style/AppTheme.Popup"></activity>
+        <activity android:name=".Popup_Info_App"></activity>
+        <activity
+            android:name=".Pop_up_privacy"
+            android:theme="@style/AppTheme.Popup" />
         <activity android:name=".Sign_In" />
         <activity android:name=".Sign_Up" />
         <activity android:name=".Get_Start" />

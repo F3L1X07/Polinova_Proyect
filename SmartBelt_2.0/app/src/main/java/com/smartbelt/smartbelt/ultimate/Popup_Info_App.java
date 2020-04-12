@@ -2,20 +2,18 @@ package com.smartbelt.smartbelt.ultimate;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.ImageView;
 
-public class Pop_up_privacy extends AppCompatActivity {
-
+public class Popup_Info_App extends AppCompatActivity {
     private ImageView Close;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pop_up_privacy);
+        setContentView(R.layout.activity_popup__info__app);
+
 
         DisplayMetrics medidasVentana = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(medidasVentana);
@@ -32,9 +30,5 @@ public class Pop_up_privacy extends AppCompatActivity {
                 onBackPressed();
             }
         });
-
-
-
     }
 }
-
