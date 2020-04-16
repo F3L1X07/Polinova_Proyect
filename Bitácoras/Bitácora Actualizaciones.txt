@@ -83,4 +83,7 @@ Bitácora de Actualizaciones del Proyecto
 ♦Problema: Se encontro un problema de compartibilidad con Android Studio.
  	   Para mas información ver la Bitácora de Errores
 
+11/04/20 07:54pm (JOSELYNE)
+♣
+
 ★♣♠♥♦♪ΩΠ§∆ <!-- Necesario para continuar con el proyecto, Fase 2 (Menu Principal y Fragments) --> ∆§ΠΩ♪♦♥♠♣★

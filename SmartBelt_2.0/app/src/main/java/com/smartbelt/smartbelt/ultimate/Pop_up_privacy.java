@@ -36,6 +36,7 @@ public class Pop_up_privacy extends AppCompatActivity {
 
                 startActivity(new Intent(Pop_up_privacy.this, Sign_In.class));
 
+
             }
         });
 

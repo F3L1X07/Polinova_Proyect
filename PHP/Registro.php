@@ -1,24 +1,24 @@
 <?php 
 error_reporting(0);
 
-$conexion = mysql_connect("localhost", "", "", "register");
+$conexion = mysqli_connect("localhost", "102751", "030998", "102751");
 
 if(!$conexion)
 {
 	exit("Error al conectarse al servidor MYSQL");
 }
 
-$usuario = $_POST["Username_SU"];
-$password = $_POST["Password_SU"];
-$email = $_POST["Email_SU"];
+$User = $_POST["Username_SU"];
+$Email = $_POST["Email_SU"];
+$Password = $_POST["Password_SU"];
 
-if(empty($email))
+if(empty($Email))
 {
 	exit("Para registrarse llenar el campo \"Email\"");
 }
 
-$consulta = "insert into register (User,Password,Email) values ('$Username_SU', '$Password_SU', '$Email_SU')";
-mysql_query($conexion,$consulta);
+$consulta = "insert into register (User,Email,Password) values ('$Username_SU', '$Email_SU', '$Password_SU')";
+mysqli_query($conexion,$consulta);
 
 $num = mysql_affected_rows($conexion);
 
