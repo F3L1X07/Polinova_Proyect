@@ -84,7 +84,8 @@ public class Sign_Up extends AppCompatActivity {
 
         private WeakReference<Context> context;
 
-        public DescargarImagen (Context context) {
+        public DescargarImagen (Context context)
+        {
             this.context = new WeakReference<>(context);
         }
         protected String doInBackground(String...params){
@@ -111,7 +112,7 @@ public class Sign_Up extends AppCompatActivity {
                 bufferedWriter.close();
                 outputStream.close();
 
-                InputStream  inputStream = httpURLConnection.getErrorStream();
+                InputStream  inputStream = httpURLConnection.getInputStream();
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
                 StringBuilder stringBuilder = new StringBuilder();
 
@@ -136,7 +137,7 @@ public class Sign_Up extends AppCompatActivity {
         }
 
         protected void onPostExecute(String resultado){
-            Toast.makeText(context.get(), resultado, Toast.LENGTH_LONG).show();
-        }
+        Toast.makeText(context.get(), resultado, Toast.LENGTH_LONG).show();
     }
+}
 }

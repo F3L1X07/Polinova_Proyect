@@ -1,16 +1,16 @@
 <?php
 $hostname = "localhost";
-$database = "";
+$database = "polinova";
 $username = "root";
 $password = "";
 $json = array();
-	if (isset($_GET["User"]) && isset($_GET["Pasword"])) {
-		$user = $_GET['User'];
-		$pwd = $_GET['Pasword'];
+	if (isset($_GET["Username_SI"]) && isset($_GET["Pasword_SI"])) {
+		$User = $_GET['Username_SI'];
+		$Password = $_GET['Pasword_SI'];
 		
-		$conexion = mysql_connect($hostname, $username, $password, $database);
+		$conexion = mysql_connect($hostname, $User, $Password, $database);
 
-		$consulta = "SELECT User, Pasword, names FROM usuario WHERE User = '{$user}' AND Pasword = '{$pwd}'";
+		$consulta = "SELECT Username_SI, Pasword_SI, names FROM usuario WHERE Username_SI = '{$User}' AND Pasword_SI = '{$Password}'";
 		$resultado = mysql_query($conexion, $consulta);
 
 		if ($consulta) {
@@ -23,8 +23,8 @@ $json = array();
 		}
 
 		else {
-			$results["User"] = '';
-			$results["Pasword"] = '';
+			$results["Username_SI"] = '';
+			$results["Pasword_SI"] = '';
 			$results["names"] = '';
 			$json['datos'][] = $results;
 			echo json_encode($json);
@@ -32,8 +32,8 @@ $json = array();
 	}
 
 	else {
-		$results["User"] = '';
-		$results["Pasword"] = ''; 
+		$results["Username_SI"] = '';
+		$results["Pasword_SI"] = ''; 
 		$results["names"] = '';
 		$json['datos'][] = $results;
 		echo json_encode($json);
