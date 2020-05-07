@@ -104,4 +104,6 @@ Bitácora de Actualizaciones del Proyecto
 ♣Finalización del diseño correspondiente al activity "Pacient_Info" destinado al cambio de información que se
  mostrara en el activity "Pacient" en el cual el usuario podrá observar la información proporcionada respecto
  a su "Paciente" o Familiar al cual se esta cuidando.
+♠Anotación: Todos estos procesos se han realizado en un proyecto prueba por lo cual no se verán reflejado en el
+	    Proyecto Definitivo
 ★Anotación Temporal: Se sigue realizando avances en la Aplicación, Probablemente se suban nuevas actualizaciones
