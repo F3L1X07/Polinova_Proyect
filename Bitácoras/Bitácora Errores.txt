@@ -22,4 +22,9 @@ Bitácora de Errores del Proyecto
  se desconoce si es un problema de la versión de Android Studio, un SDK o Un problema general de la PC.
  Se necesita Investigación, esta acción nos podria servir en un futuro cercano.
 
+07/05/2020 3:08am (FELIX)
+♠Se encontro un error al intentar realizar un navegador lateral, en el cual no se lograba realizar la estructuración
+ del menú lateral, por lo cual se decidio la opción de realizar el contenido en forma de Pop Up para no atrasar la
+ realización del proyecto, dando asi "final" al problema
+
 ★♣♠♥♦♪ΩΠ§∆ <!-- Bitácora de Errores --> ∆§ΠΩ♪♦♥♠♣★
