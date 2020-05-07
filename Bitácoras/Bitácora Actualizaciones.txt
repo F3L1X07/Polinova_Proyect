@@ -99,3 +99,9 @@ Bitácora de Actualizaciones del Proyecto
 ♣Falta: Realizar la asignación de la función de Pop Up al Activity "Pacient"
 ♠Anotación: Se hará un cambio en el inicio de la aplicación para visualizar el activity principal y así
 	    comprobar si el activity "Pacient" funciona a la perfección.
+
+07/05/2020 06:17pm (FELIX)
+♣Finalización del diseño correspondiente al activity "Pacient_Info" destinado al cambio de información que se
+ mostrara en el activity "Pacient" en el cual el usuario podrá observar la información proporcionada respecto
+ a su "Paciente" o Familiar al cual se esta cuidando.
+★Anotación Temporal: Se sigue realizando avances en la Aplicación, Probablemente se suban nuevas actualizaciones
