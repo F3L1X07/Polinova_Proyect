@@ -58,9 +58,6 @@ public class Get_Start extends AppCompatActivity {
             public void onClick(View v) {
 
                 startActivity(new Intent(Get_Start.this, PopUp_Information.class));
-
-                startActivity(new Intent(Get_Start.this, PopUp_Information.class));
-
             }
         });
     }

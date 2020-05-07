@@ -1,37 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".Pacient"
-
-    android:layout_alignParentBottom="true">
-
-    <RelativeLayout
+<ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <RelativeLayout
             android:id="@+id/Header"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
 
             android:paddingBottom="20dp"
 
-            android:background="@drawable/color_back">
-
-            <ImageView
-                android:id="@+id/btn_Exit"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginTop="15dp"
-                android:layout_marginEnd="25dp"
-
-                android:src="@drawable/close_3"/>
+            android:background="#AAF">
 
             <ImageView
                 android:id="@+id/User"
@@ -58,34 +36,25 @@
                 android:layout_alignParentEnd="true"
 
                 android:text="Pacient Name"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textStyle="bold"
                 android:textSize="20dp"
                 android:textAlignment="center"/>
 
         </RelativeLayout>
 
-        <LinearLayout
-            android:id="@+id/Line1"
-            android:layout_width="fill_parent"
-            android:layout_height="3dp"
-
-            android:layout_below="@+id/Header"
-
-            android:background="@drawable/color_line"/>
-
         <RelativeLayout
             android:id="@+id/C_Info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:layout_below="@+id/Line1"
+            android:layout_below="@+id/Header"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
 
-            android:background="@drawable/color_back">
+            android:background="#FF0">
 
             <ImageView
                 android:id="@+id/Img_Birth"
@@ -113,7 +82,7 @@
                 android:layout_marginBottom="0dp"
 
                 android:text="06 April 2001"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="13dp"
@@ -147,7 +116,7 @@
                 android:gravity="center"
                 android:text="100"
                 android:textAlignment="center"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textSize="13dp"
                 android:textStyle="bold" />
 
@@ -167,7 +136,7 @@
                 android:paddingTop="5dp"
                 android:text="kg"
                 android:textAlignment="center"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textSize="10dp"
                 android:textStyle="bold" />
 
@@ -194,7 +163,7 @@
                 android:layout_alignBottom="@+id/Img_Loca"
 
                 android:text="Guadalajara Jal."
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textStyle="bold"
                 android:textSize="13dp"
                 android:gravity="center"/>
@@ -226,7 +195,7 @@
                 android:gravity="center"
                 android:text="135"
                 android:textAlignment="center"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textSize="13dp"
                 android:textStyle="bold" />
 
@@ -246,33 +215,24 @@
                 android:paddingTop="5dp"
                 android:text="cm"
                 android:textAlignment="center"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textSize="10dp"
                 android:textStyle="bold" />
 
         </RelativeLayout>
-
-        <LinearLayout
-            android:id="@+id/Line2"
-            android:layout_width="fill_parent"
-            android:layout_height="3dp"
-
-            android:layout_below="@+id/C_Info"
-
-            android:background="@drawable/color_line"/>
 
         <RelativeLayout
             android:id="@+id/C_Contact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:layout_below="@+id/Line2"
+            android:layout_below="@+id/C_Info"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
 
-            android:background="@drawable/color_back">
+            android:background="#F0A">
 
             <ImageView
                 android:id="@+id/Img_Cel"
@@ -300,7 +260,7 @@
                 android:layout_marginBottom="0dp"
 
                 android:text="(33)"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="16dp"
@@ -321,7 +281,7 @@
                 android:gravity="center"
                 android:text="20572148"
                 android:textAlignment="center"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textSize="16dp"
                 android:textStyle="bold" />
 
@@ -349,54 +309,45 @@
                 android:layout_alignBottom="@+id/Img_Email"
 
                 android:text="Pacienttherap8_juk@gmail.com"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textStyle="bold"
                 android:textSize="16dp"
                 android:gravity="center"/>
 
         </RelativeLayout>
 
-        <LinearLayout
-            android:id="@+id/Line3"
-            android:layout_width="fill_parent"
-            android:layout_height="3dp"
-
-            android:layout_below="@+id/C_Contact"
-
-            android:background="@drawable/color_line"/>
-
         <RelativeLayout
             android:id="@+id/H_Medic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:layout_below="@+id/Line3"
+            android:layout_below="@+id/C_Contact"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:paddingTop="15dp"
-            android:paddingBottom="25dp"
+            android:paddingBottom="15dp"
 
-            android:background="@drawable/color_back">
+            android:background="#AAA">
 
             <TextView
                 android:id="@+id/Title_H_Medic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
                 android:layout_marginBottom="0dp"
 
-                android:gravity="center"
                 android:text="Medical History"
+                android:textColor="#000"
                 android:textAlignment="center"
-                android:textColor="#FFF"
+                android:textStyle="bold"
                 android:textSize="25dp"
-                android:textStyle="bold" />
+                android:gravity="center"/>
 
             <TextView
                 android:id="@+id/Txt_H_Medic"
@@ -406,32 +357,16 @@
                 android:layout_below="@+id/Title_H_Medic"
                 android:layout_alignStart="@+id/Title_H_Medic"
                 android:layout_alignEnd="@+id/Title_H_Medic"
-                android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="0dp"
 
                 android:text="@string/Medical_History"
                 android:textAlignment="viewStart"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textSize="16dp"
                 android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/btn_Edit"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-
-                android:layout_below="@+id/Txt_H_Medic"
-                android:layout_alignStart="@+id/Txt_H_Medic"
-                android:layout_alignEnd="@+id/Txt_H_Medic"
-                android:layout_marginTop="15dp"
-                android:layout_marginStart="30dp"
-                android:layout_marginEnd="30dp"
-
-                android:text="Edit"
-                android:background="@drawable/btn_rdo" />
-
         </RelativeLayout>
-    </RelativeLayout>
-</ScrollView>
+    </ScrollView>

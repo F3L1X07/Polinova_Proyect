@@ -11,8 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
-        <activity android:name=".popup_privacy"
-            android:theme="@style/AppTheme.Popup"></activity>
+        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".Pacient" />
+        <activity
+            android:name=".popup_privacy"
+            android:theme="@style/AppTheme.Popup" />
         <activity android:name=".Sign_In" />
         <activity android:name=".Sign_Up" />
         <activity android:name=".Get_Start" />
