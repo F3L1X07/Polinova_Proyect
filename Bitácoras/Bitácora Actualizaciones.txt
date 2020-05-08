@@ -106,4 +106,18 @@ Bitácora de Actualizaciones del Proyecto
  a su "Paciente" o Familiar al cual se esta cuidando.
 ♠Anotación: Todos estos procesos se han realizado en un proyecto prueba por lo cual no se verán reflejado en el
 	    Proyecto Definitivo
-★Anotación Temporal: Se sigue realizando avances en la Aplicación, Probablemente se suban nuevas actualizaciones
+
+08/05/2020 12:02am (FELIX)
+♣Finalización del diseño para el activity "Pacient_Info" en el Proyecto definitivo
+♣Falta: Relizar la Programación del EditText "Date" para seleccionar dia a insertar en el Formulario de una
+	forma mas rapida y comoda.
+♣Falta: Realizar la programación PHP de los activities tanto "Pacient" como "Pacient_Info" para su termino
+	definitivo.
+♣Finalización del diseño basico del activity principal, donde se mistrará la ubicación del GPS
+♣Falta: Cambiar las imagenes que funcionarán como botones por las correspondientes
+♣Falta: Realizar la Programación de la Imagen asignada al Menu en la cual se accederá al activity "Pacient"
+	en forma de Pop Up.
+♣Falta: Crear un ultimo activity designado solo a la visualización de la informacion de usuario básica
+	"Username" y "Email" y posible cambio de contraseña (Si se autoriza por Joselyne).
+♦Problema: Se encontro un problema a la hora de programar el acceso a la página web designada para la visualización
+	   de la ubicación en tiempo real del Paciente (Familiar). mas información en la Bitácora de Errores
