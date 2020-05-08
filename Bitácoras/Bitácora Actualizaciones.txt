@@ -121,3 +121,13 @@ Bitácora de Actualizaciones del Proyecto
 	"Username" y "Email" y posible cambio de contraseña (Si se autoriza por Joselyne).
 ♦Problema: Se encontro un problema a la hora de programar el acceso a la página web designada para la visualización
 	   de la ubicación en tiempo real del Paciente (Familiar). mas información en la Bitácora de Errores
+
+08/05/2020 03:44pm (FELIX)
+♣Finalización de la funcionalidad de los activities "Pacient", "Pacient_Info" y "MainActivity" en el cual se 
+ coloca los cambios de pantalla y PopUp asignados en el Proyecto definitivo.
+♣Falta: Relizar la Programación del EditText "Date" para seleccionar dia a insertar en el Formulario de una
+	forma mas rapida y comoda.
+♣Falta: Realizar la programación PHP de los activities tanto "Pacient" como "Pacient_Info" para su termino
+	definitivo.
+♣Falta: Crear un ultimo activity designado solo a la visualización de la informacion de usuario básica
+	"Username" y "Email" y posible cambio de contraseña (Si se autoriza por Joselyne).
