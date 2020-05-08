@@ -3,12 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".Info_Pacient">
+    android:layout_height="match_parent"
+    tools:context=".Info_Pacient"
+
+    android:layout_alignParentBottom="true"
+    android:background="#32b5d5">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
 
         android:padding="16dp">
 
@@ -22,8 +25,9 @@
             android:layout_alignParentEnd="true"
 
             android:text="Pacient Info"
+            android:textColorHint="#FFF"
             android:textAlignment="center"
-            android:textColor="#000"
+            android:textColor="#FFF"
             android:textSize="40sp"
             android:textStyle="bold" />
 
@@ -37,11 +41,11 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
 
-            android:text="Pid:"
+            android:text="PID:"
             android:gravity="center"
             android:textSize="25sp"
-            android:textStyle="italic"
-            android:textColor="#000"
+            android:textStyle="bold"
+            android:textColor="#FFF"
             android:textAllCaps="true" />
 
         <TextView
@@ -54,8 +58,7 @@
             android:layout_alignBottom="@id/Txt_PID"
 
             android:text="P123456789"
-
-            android:textColor="#777"
+            android:textColor="#FFF"
             android:textStyle="italic"
             android:textSize="20sp"
             android:gravity="center_vertical"/>
@@ -72,7 +75,7 @@
             android:text="Name:"
             android:textStyle="bold"
             android:textSize="25sp"
-            android:textColor="#000"/>
+            android:textColor="#FFF"/>
 
         <EditText
             android:id="@+id/P_Name"
@@ -88,6 +91,7 @@
             android:padding="10dp"
 
             android:hint="Juan Antonio Hernandez Gutierrez"
+            android:textColorHint="#fff"
             android:background="@drawable/border"
             android:textSize="15sp"/>
 
@@ -103,7 +107,7 @@
             android:text="Location:"
             android:textStyle="bold"
             android:textSize="25sp"
-            android:textColor="#000"/>
+            android:textColor="#FFF"/>
 
         <EditText
             android:id="@+id/P_Location"
@@ -118,6 +122,7 @@
             android:padding="10dp"
 
             android:hint="Guadalajara Jal. México"
+            android:textColorHint="#FFF"
             android:background="@drawable/border"
             android:textSize="15sp"/>
 
@@ -133,7 +138,7 @@
             android:text="Weight:"
             android:textStyle="bold"
             android:textSize="25sp"
-            android:textColor="#000"/>
+            android:textColor="#FFF"/>
 
         <EditText
             android:id="@+id/P_Weight"
@@ -148,6 +153,7 @@
             android:padding="10dp"
 
             android:hint="100"
+            android:textColorHint="#FFF"
             android:gravity="center_vertical"
             android:background="@drawable/border"
             android:textSize="15sp"/>
@@ -165,7 +171,7 @@
             android:text="KG"
             android:textStyle="italic"
             android:textSize="15sp"
-            android:textColor="#000"
+            android:textColor="#FFF"
             android:gravity="bottom"/>
 
         <TextView
@@ -181,7 +187,7 @@
             android:text="Height:"
             android:textStyle="bold"
             android:textSize="25sp"
-            android:textColor="#000"/>
+            android:textColor="#FFF"/>
 
         <EditText
             android:id="@+id/P_Height"
@@ -196,6 +202,7 @@
             android:padding="10dp"
 
             android:hint="136"
+            android:textColorHint="#FFF"
             android:gravity="center_vertical"
             android:background="@drawable/border"
             android:textSize="15sp"/>
@@ -213,7 +220,7 @@
             android:text="CM"
             android:textStyle="italic"
             android:textSize="15sp"
-            android:textColor="#000"
+            android:textColor="#FFF"
             android:gravity="bottom"/>
 
         <TextView
@@ -228,7 +235,7 @@
             android:text="Cellphone:"
             android:textStyle="bold"
             android:textSize="25sp"
-            android:textColor="#000"/>
+            android:textColor="#FFF"/>
 
         <TextView
             android:id="@+id/Inicial_Num"
@@ -244,7 +251,7 @@
             android:gravity="center_vertical"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:textColor="#000"/>
+            android:textColor="#FFF"/>
 
         <EditText
             android:id="@+id/P_Cellphone"
@@ -261,6 +268,7 @@
             android:paddingStart="10dp"
 
             android:hint="6789 7645"
+            android:textColorHint="#FFF"
             android:gravity="center_vertical"
             android:background="@drawable/border"
             android:textSize="20sp"/>
@@ -277,7 +285,7 @@
             android:text="Email:"
             android:textStyle="bold"
             android:textSize="25sp"
-            android:textColor="#000"/>
+            android:textColor="#FFF"/>
 
         <EditText
             android:id="@+id/P_Email"
@@ -293,6 +301,7 @@
             android:padding="10dp"
 
             android:hint="juanantoniohrnendez@gmail.com"
+            android:textColorHint="#FFF"
             android:gravity="center_vertical"
             android:background="@drawable/border"
             android:textSize="15sp"
@@ -312,7 +321,7 @@
             android:text="Birthday:"
             android:textStyle="bold"
             android:textSize="25sp"
-            android:textColor="#000"/>
+            android:textColor="#FFF"/>
 
         <EditText
             android:id="@+id/P_Date"
@@ -329,6 +338,7 @@
             android:padding="10dp"
 
             android:hint="DD / MMM / AAAA"
+            android:textColorHint="#FFF"
             android:gravity="center_vertical"
             android:background="@drawable/border"
             android:textSize="15sp"
@@ -360,7 +370,7 @@
 
             android:text="Medical History"
             android:textSize="30dp"
-            android:textColor="#000"
+            android:textColor="#FFF"
             android:textStyle="bold"
             android:gravity="center"/>
 
@@ -379,6 +389,7 @@
             android:padding="10dp"
 
             android:hint="@string/Medical_History"
+            android:textColorHint="#FFF"
             android:gravity="center_vertical"
             android:background="@drawable/border"
             android:textSize="15sp" />
@@ -399,8 +410,10 @@
             android:text="Accept"
             android:textStyle="bold"
             android:textSize="15sp"
-            android:textColor="#000"
-            android:gravity="center"/>
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:background="@drawable/radius"
+            android:backgroundTint="#09bc00"/>
 
         <Button
             android:id="@+id/btn_Cancel"
@@ -417,8 +430,10 @@
             android:text="Cancel"
             android:textStyle="bold"
             android:textSize="15sp"
-            android:textColor="#000"
-            android:gravity="center"/>
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:background="@drawable/radius"
+            android:backgroundTint="#d50000"/>
 
     </RelativeLayout>
 </ScrollView>

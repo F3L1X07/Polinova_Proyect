@@ -2,7 +2,7 @@ package com.smartbelt.smartbelt.pruebas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import android.os.Bundle; 
 
 public class Info_Pacient extends AppCompatActivity {
 
