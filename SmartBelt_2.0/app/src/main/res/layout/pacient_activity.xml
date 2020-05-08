@@ -69,6 +69,7 @@
             android:id="@+id/Line1"
             android:layout_width="fill_parent"
             android:layout_height="3dp"
+            android:orientation="vertical"
 
             android:layout_below="@+id/Header"
 
@@ -256,6 +257,7 @@
             android:id="@+id/Line2"
             android:layout_width="fill_parent"
             android:layout_height="3dp"
+            android:orientation="vertical"
 
             android:layout_below="@+id/C_Info"
 
@@ -360,6 +362,7 @@
             android:id="@+id/Line3"
             android:layout_width="fill_parent"
             android:layout_height="3dp"
+            android:orientation="vertical"
 
             android:layout_below="@+id/C_Contact"
 
