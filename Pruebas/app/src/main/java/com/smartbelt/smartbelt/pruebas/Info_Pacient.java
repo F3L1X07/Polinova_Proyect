@@ -1,8 +1,8 @@
-package com.smartbelt.smartbelt.pruebas;
+﻿package com.smartbelt.smartbelt.pruebas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.DatePickerDialog;
+import android.app.DatePickerDialog; 
 import android.app.Dialog;
 import android.os.Bundle;
 import android.view.View;
