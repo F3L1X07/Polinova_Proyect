@@ -33,5 +33,6 @@ Bitácora de Errores del Proyecto
  Si no un error con el propio WebView. Tambien se observo que la aplicación de android studio empezo a ponerse lenta
  por lo que se cree que es un fallo por uso contante, por lo cual genera errores fantasmas. Se comprobará en la proxima
  actualización de la aplicación "Smartbelt". Se espera que se solucione lo mas pronto posible
+♥Parece ser que el error era lo esperado, y solamente era generado por uso constante de la aplicación "Android Studio"
 
 ★♣♠♥♦♪ΩΠ§∆ <!-- Bitácora de Errores --> ∆§ΠΩ♪♦♥♠♣★
