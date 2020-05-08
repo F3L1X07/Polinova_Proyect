@@ -11,8 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Pacient_Info"></activity>
-        <activity android:name=".Pacient" />
+        <activity android:name=".Pacient_Info"/>
+        <activity
+            android:name=".Pacient"
+            android:theme="@style/AppTheme.Popup"/>
         <activity
             android:name=".PopUp_Privacy"
             android:theme="@style/AppTheme.Popup" />
@@ -22,14 +24,14 @@
         <activity android:name=".Sign_In" />
         <activity android:name=".Sign_Up" />
         <activity android:name=".Get_Start" />
-        <activity android:name=".Splash">
+        <activity android:name=".Splash"></activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

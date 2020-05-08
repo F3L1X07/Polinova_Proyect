@@ -16,7 +16,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true"
 
-            android:src="@drawable/cinta_metrica"
+            android:src="@drawable/menu"
             android:scaleType="fitXY"/>
 
         <TextView
@@ -43,7 +43,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
 
-            android:src="@drawable/calendario"
+            android:src="@drawable/usuario"
             android:scaleType="fitXY"/>
 
         <WebView

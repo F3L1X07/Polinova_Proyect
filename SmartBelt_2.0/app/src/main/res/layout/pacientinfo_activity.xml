@@ -88,10 +88,12 @@
             android:layout_alignBottom="@id/Txt_Name"
             android:layout_marginStart="10dp"
             android:layout_marginBottom="0dp"
-            android:padding="10dp"
+            android:padding="5dp"
 
             android:hint="Juan Antonio Hernandez Gutierrez"
             android:textColorHint="#fff"
+            android:textColor="#FFF"
+            android:gravity="start"
             android:background="@drawable/border"
             android:textSize="15sp"/>
 
@@ -119,10 +121,12 @@
             android:layout_alignBottom="@id/Txt_Location"
             android:layout_marginStart="10dp"
             android:layout_marginBottom="0dp"
-            android:padding="10dp"
+            android:padding="5dp"
 
             android:hint="Guadalajara Jal. México"
             android:textColorHint="#FFF"
+            android:textColor="#FFF"
+            android:gravity="start"
             android:background="@drawable/border"
             android:textSize="15sp"/>
 
@@ -150,13 +154,15 @@
             android:layout_alignBottom="@id/Txt_Weight"
             android:layout_marginStart="10dp"
             android:layout_marginBottom="0dp"
-            android:padding="10dp"
+            android:padding="5dp"
 
             android:hint="100"
             android:textColorHint="#FFF"
-            android:gravity="center_vertical"
+            android:textColor="#FFF"
+            android:gravity="start"
             android:background="@drawable/border"
-            android:textSize="15sp"/>
+            android:textSize="15sp"
+            android:inputType="number"/>
 
         <TextView
             android:id="@+id/Kg"
@@ -182,7 +188,7 @@
             android:layout_alignTop="@+id/Txt_Weight"
             android:layout_toEndOf="@+id/Kg"
             android:layout_alignBottom="@id/Txt_Weight"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="15dp"
 
             android:text="Height:"
             android:textStyle="bold"
@@ -199,13 +205,15 @@
             android:layout_alignBottom="@id/Txt_Height"
             android:layout_marginStart="10dp"
             android:layout_marginBottom="0dp"
-            android:padding="10dp"
+            android:padding="5dp"
 
             android:hint="136"
             android:textColorHint="#FFF"
-            android:gravity="center_vertical"
+            android:textColor="#FFF"
+            android:gravity="start"
             android:background="@drawable/border"
-            android:textSize="15sp"/>
+            android:textSize="15sp"
+            android:inputType="number"/>
 
         <TextView
             android:id="@+id/Cm"
@@ -269,9 +277,11 @@
 
             android:hint="6789 7645"
             android:textColorHint="#FFF"
-            android:gravity="center_vertical"
+            android:textColor="#FFF"
+            android:gravity="start"
             android:background="@drawable/border"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:inputType="phone"/>
 
         <TextView
             android:id="@+id/Txt_Email"
@@ -298,11 +308,12 @@
             android:layout_alignBottom="@id/Txt_Email"
             android:layout_marginStart="10dp"
             android:layout_marginBottom="0dp"
-            android:padding="10dp"
+            android:padding="5dp"
 
             android:hint="juanantoniohrnendez@gmail.com"
             android:textColorHint="#FFF"
-            android:gravity="center_vertical"
+            android:textColor="#FFF"
+            android:gravity="start"
             android:background="@drawable/border"
             android:textSize="15sp"
 
@@ -333,13 +344,14 @@
             android:layout_alignEnd="@+id/P_Height"
             android:layout_alignBottom="@id/Txt_Birthday"
             android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginEnd="5dp"
             android:layout_marginBottom="0dp"
-            android:padding="10dp"
+            android:padding="5dp"
 
             android:hint="DD / MMM / AAAA"
             android:textColorHint="#FFF"
-            android:gravity="center_vertical"
+            android:textColor="#FFF"
+            android:gravity="start"
             android:background="@drawable/border"
             android:textSize="15sp"
 
@@ -388,9 +400,10 @@
             android:layout_marginBottom="0dp"
             android:padding="10dp"
 
+            android:textColor="#FFF"
             android:hint="@string/Medical_History"
             android:textColorHint="#FFF"
-            android:gravity="center_vertical"
+            android:gravity="start"
             android:background="@drawable/border"
             android:textSize="15sp" />
 
@@ -401,10 +414,9 @@
 
             android:layout_below="@+id/P_H_Medic"
             android:layout_alignStart="@+id/P_H_Medic"
-            android:layout_toStartOf="@+id/btn_Cancel"
             android:layout_marginTop="20dp"
             android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
+            android:layout_marginEnd="5dp"
             android:padding="20dp"
 
             android:text="Accept"
@@ -422,7 +434,9 @@
 
             android:layout_below="@+id/P_H_Medic"
             android:layout_alignEnd="@+id/P_H_Medic"
+            android:layout_toEndOf="@+id/btn_Accept"
             android:layout_marginTop="20dp"
+            android:layout_marginStart="5dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
             android:padding="20dp"
