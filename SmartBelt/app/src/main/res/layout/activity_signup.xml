@@ -35,7 +35,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/Username_SI"
+                android:id="@+id/Username_SU"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageView2"
@@ -57,7 +57,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
             <EditText
-                android:id="@+id/Password_SI"
+                android:id="@+id/Password_SU"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/Email_SU"
@@ -82,7 +82,7 @@
                 android:id="@+id/Email_SU"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/Username_SI"
+                android:layout_below="@+id/Username_SU"
                 android:layout_alignStart="@+id/imageView2"
                 android:layout_alignEnd="@+id/imageView2"
                 android:layout_marginStart="0dp"
@@ -99,13 +99,13 @@
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Password_SI" />
+                app:layout_constraintTop_toBottomOf="@+id/Password_SU" />
 
             <Button
-                android:id="@+id/Login_btn"
+                android:id="@+id/btnRegister"
                 android:layout_width="250sp"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/Password_SI"
+                android:layout_below="@+id/Password_SU"
                 android:layout_alignStart="@+id/imageView2"
                 android:layout_alignEnd="@+id/imageView2"
                 android:layout_marginStart="0dp"
@@ -125,7 +125,7 @@
                 android:id="@+id/Privacy"
                 android:layout_width="164dp"
                 android:layout_height="64dp"
-                android:layout_below="@+id/Login_btn"
+                android:layout_below="@+id/btnRegister"
                 android:layout_alignStart="@+id/imageView2"
                 android:layout_alignEnd="@+id/imageView2"
                 android:layout_marginStart="0dp"
@@ -138,7 +138,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Login_btn" />
+                app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 
             <ImageView
                 android:id="@+id/imageView2"

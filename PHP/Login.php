@@ -1,41 +1,25 @@
 <?php
-$hostname = "localhost";
-$database = "polinova";
-$username = "root";
-$password = "";
-$json = array();
-	if (isset($_GET["Username_SI"]) && isset($_GET["Pasword_SI"])) {
-		$User = $_GET['Username_SI'];
-		$Password = $_GET['Pasword_SI'];
-		
-		$conexion = mysql_connect($hostname, $User, $Password, $database);
+$con = msqli_connect("localhost", "id13539602_smartbeltdbproyect", "Joselyne.Cruz123", "id13539602_smartbeltbd");
 
-		$consulta = "SELECT Username_SI, Pasword_SI, names FROM usuario WHERE Username_SI = '{$User}' AND Pasword_SI = '{$Password}'";
-		$resultado = mysql_query($conexion, $consulta);
+$username     = $_POST["User"];
+$password     = $_POST["Password"];
 
-		if ($consulta) {
-			
-			if ($reg = mysql_fetch_array($resultado)) {
-				$json['datos'][] = $reg;
-			}
-			mysqli_close($conexion);
-			echo json_encode($json);
-		}
+$statement = mysqli_prepare($con, "SELECT * FROM profile WHERE User = ? AND Password = ?");
+mysqli_stmt_bind_param($statement, "ss", $username, $password);
+mysqli_stmt_execute($statement);
 
-		else {
-			$results["Username_SI"] = '';
-			$results["Pasword_SI"] = '';
-			$results["names"] = '';
-			$json['datos'][] = $results;
-			echo json_encode($json);
-		}
-	}
+mysqli_stmt_store_result($statement);
+mysqli_stmt_bind_result($statement, $ID, $User, $Password, $Email);
 
-	else {
-		$results["Username_SI"] = '';
-		$results["Pasword_SI"] = ''; 
-		$results["names"] = '';
-		$json['datos'][] = $results;
-		echo json_encode($json);
-	}
+$response = array();
+$response["success"] = false;
+
+while(mysqli_stmt_fetch($statement)){
+$response["success"] = true;
+$response["User"] = $User;
+$response["Password"] = $Password;
+$response["Email"] = $Email;
+}
+
+echo json_encode($response);
 ?>
