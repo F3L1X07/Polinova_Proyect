@@ -31,7 +31,7 @@ public class PopUp_Privacy extends AppCompatActivity {
         Close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(PopUp_Privacy.this, Sign_Up.class));
+                onBackPressed();
             }
         });
 
@@ -39,7 +39,7 @@ public class PopUp_Privacy extends AppCompatActivity {
         Accept.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(PopUp_Privacy.this, Sign_Up.class));
+                onBackPressed();
             }
         });
     }

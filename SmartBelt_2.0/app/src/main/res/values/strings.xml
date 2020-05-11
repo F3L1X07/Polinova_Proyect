@@ -3,16 +3,16 @@
 
     <string name="Privacy_Text">
         This Privacy Policy describes how and when we collect, use and share your information on our web pages, SMS, APIs, email notifications,
-        buttons, widgets, advertisements, commerce services and in our other services linked to this Policy (called collectively the and how our
-        partners and third parties do it. For example, you send us information when you use our Services through the Internet, SMS or an
-        application such as Twitter for Mac, Twitter for Android or TweetDeck. By using any of our Services, you consent to the collection,
-        transfer, manipulation, storage, disclosure and other uses of your information as described in this Privacy Policy.
-        This includes any information you choose to provide that is considered confidential under applicable law.
-        Whichever country you reside in, you authorize us to transfer, store and use your information in Mexico and in any other country
-        in which we operate. In some of these countries, data protection and privacy laws and regulations on when government authorities
-        can access data may differ from those in the country in which you live.
-        We collect the content and other information you provide when you use the Services, including information about yourself and others,
-        such as the data you provide when creating an account and the content you create or provide through the App, including photos
+        buttons, widgets, advertisements, commerce services and in our other services linked to this Policy (called collectively the and
+        how our partners and third parties do it. For example, you send us information when you use our Services through the Internet,
+        SMS or an application such as Twitter for Mac, Twitter for Android or TweetDeck. By using any of our Services,
+        you consent to the collection, transfer, manipulation, storage, disclosure and other uses of your information as
+        described in this Privacy Policy. This includes any information you choose to provide that is considered confidential under
+        applicable law. Whichever country you reside in, you authorize us to transfer, store and use your information in Mexico and in
+        any other country in which we operate. In some of these countries, data protection and privacy laws and regulations on when government
+        authorities can access data may differ from those in the country in which you live. We collect the content and other information
+        you provide when you use the Services, including information about yourself and others, such as the data you provide when creating
+        an account and the content you create or provide through the App, including photos
     </string>
 
     <string name="Privacy_Text2">
@@ -34,13 +34,25 @@
         como para las personas que padecen dicha enfermedad
     </string>
 
-<string name="About_Us_1">
-    SmartBelt is an application linked to the SmartBelt belt where the patients caregiver administers and carries out all the settings, records, administration and supervision of its functions, including: personal account management, medical history record, registration and administration of medications, pending medical studies and consultations, scheduled alarms and reminders, display on the map of the location of the belt, and general system settings.
-</string>
+    <string name="About_Us_1">
+        SmartBelt is an application linked to the SmartBelt belt where the patients caregiver administers and carries
+        out all the settings, records, administration and supervision of its functions, including: personal account management,
+        medical history record, registration and administration of medications, pending medical studies and,
+        scheduled alarms and reminders, display on the map of the location of the belt, and general system settings.
+    </string>
 
     <string name="About_Us_2">
-We are the perfect tool to help families and geriatric caregivers in the supervision and care of people of the third age or with chronic and severe diseases that require it.
-</string>
+        We are the perfect tool to help families and geriatric caregivers in the supervision and care of people of the third
+        age or with chronic and severe diseases that require it.
+    </string>
+
+    <string name="Medical_History">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id est laborum.
+    </string>
 
 </resources>
 

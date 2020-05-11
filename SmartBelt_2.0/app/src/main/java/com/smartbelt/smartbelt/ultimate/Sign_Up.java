@@ -1,21 +1,16 @@
 package com.smartbelt.smartbelt.ultimate;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
-
-
+<<<<<<< HEAD
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,6 +28,15 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
+>>>>>>> ed7c497e4b29369d0c7fac2ad2cf4c3626ecede8
 
 public class Sign_Up extends AppCompatActivity {
 
@@ -48,8 +52,8 @@ public class Sign_Up extends AppCompatActivity {
         Back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent GetStarted = new Intent(Sign_Up.this, Get_Start.class);
-                startActivity(GetStarted);
+                Intent Change = new Intent(Sign_Up.this, Get_Start.class);
+                startActivity(Change);
             }
         });
 
@@ -60,24 +64,8 @@ public class Sign_Up extends AppCompatActivity {
                 startActivity(new Intent(Sign_Up.this, PopUp_Privacy.class));
             }
         });
-
-
-        final Button boton_registrar = findViewById(R.id.Register_btn);
-        final EditText nombre_usuario = findViewById(R.id.Username_SU);
-        final EditText email_usuario = findViewById(R.id.Email_SU);
-        final EditText contrasena_usuario = findViewById(R.id.Password_SU);
-
-        boton_registrar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String User = nombre_usuario.getText().toString();
-                String Email = email_usuario.getText().toString();
-                String Password = contrasena_usuario.getText().toString();
-                new DescargarImagen(Sign_Up.this).execute(User,Email,Password);
-            }
-        });
-
     }
+<<<<<<< HEAD
 
 
     public static class DescargarImagen extends AsyncTask<String, Void,String>{
@@ -140,4 +128,9 @@ public class Sign_Up extends AppCompatActivity {
         Toast.makeText(context.get(), resultado, Toast.LENGTH_LONG).show();
     }
 }
+
+
+
+=======
+>>>>>>> ed7c497e4b29369d0c7fac2ad2cf4c3626ecede8
 }
