@@ -2,7 +2,7 @@ package com.smartbelt.smartbelt.ultimate;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent; 
+import android.content.Intent;  
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
