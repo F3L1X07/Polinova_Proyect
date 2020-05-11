@@ -335,10 +335,11 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="0dp"
-            android:padding="10dp"
+            android:padding="5dp"
 
             android:hint="DD / MMM / AAAA"
             android:textColorHint="#FFF"
+            android:textColor="#FFF"
             android:gravity="center_vertical"
             android:background="@drawable/border"
             android:textSize="15sp"
@@ -358,7 +359,8 @@
             android:layout_marginStart="0dp"
 
             android:src="@drawable/calendario"
-            android:scaleType="fitXY"/>
+            android:scaleType="fitXY"
+            android:onClick="M_Calendar"/>
 
         <TextView
             android:id="@+id/Txt_H_Medic"

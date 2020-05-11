@@ -38,8 +38,8 @@ public class Get_Start extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    Intent GetStarted = new Intent (Get_Start.this, Sign_In.class);
-                    startActivity(GetStarted);
+                    Intent Change = new Intent (Get_Start.this, Sign_In.class);
+                    startActivity(Change);
                 }
             });
 
@@ -47,8 +47,8 @@ public class Get_Start extends AppCompatActivity {
         Sign_Up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               Intent Sign_Up = new Intent(Get_Start.this, Sign_Up.class);
-               startActivity(Sign_Up);
+               Intent Change = new Intent(Get_Start.this, Sign_Up.class);
+               startActivity(Change);
             }
         });
 
@@ -58,9 +58,6 @@ public class Get_Start extends AppCompatActivity {
             public void onClick(View v) {
 
                 startActivity(new Intent(Get_Start.this, PopUp_Information.class));
-
-                startActivity(new Intent(Get_Start.this, PopUp_Information.class));
-
             }
         });
     }

@@ -22,4 +22,17 @@ Bitácora de Errores del Proyecto
  se desconoce si es un problema de la versión de Android Studio, un SDK o Un problema general de la PC.
  Se necesita Investigación, esta acción nos podria servir en un futuro cercano.
 
+07/05/2020 3:08am (FELIX)
+♠Se encontro un error al intentar realizar un navegador lateral, en el cual no se lograba realizar la estructuración
+ del menú lateral, por lo cual se decidio la opción de realizar el contenido en forma de Pop Up para no atrasar la
+ realización del proyecto, dando asi "final" al problema
+
+08/05/2020 12:11am (FELIX)
+♠Error al realzar la inicialización de la aplicación con el WebView utilizado para visualizar la página web designada
+ para el rastreo en tiempo real de la ubicación del dispositivo GPS, no parece ser un problema de la programación JAVA.
+ Si no un error con el propio WebView. Tambien se observo que la aplicación de android studio empezo a ponerse lenta
+ por lo que se cree que es un fallo por uso contante, por lo cual genera errores fantasmas. Se comprobará en la proxima
+ actualización de la aplicación "Smartbelt". Se espera que se solucione lo mas pronto posible
+♥Parece ser que el error era lo esperado, y solamente era generado por uso constante de la aplicación "Android Studio"
+
 ★♣♠♥♦♪ΩΠ§∆ <!-- Bitácora de Errores --> ∆§ΠΩ♪♦♥♠♣★

@@ -78,7 +78,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/Username_SI" />
 
             <Button
-                android:id="@+id/btnLogin"
+                android:id="@+id/Login_btn"
                 android:layout_width="250sp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/Password_SI"
@@ -95,13 +95,13 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.499"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/Email_SI" />
+                app:layout_constraintTop_toBottomOf="@+id/Email_SU" />
 
             <TextView
                 android:id="@+id/Privacy"
                 android:layout_width="164dp"
                 android:layout_height="64dp"
-                android:layout_below="@+id/btnLogin"
+                android:layout_below="@+id/Login_btn"
                 android:layout_alignStart="@+id/imageView2"
                 android:layout_alignEnd="@+id/imageView2"
                 android:layout_marginStart="0dp"
@@ -114,7 +114,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+                app:layout_constraintTop_toBottomOf="@+id/Login_btn" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -133,7 +133,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/SignIn_text" />
+                app:layout_constraintTop_toBottomOf="@+id/SignUp_text" />
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
