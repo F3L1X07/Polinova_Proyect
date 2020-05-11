@@ -189,9 +189,6 @@
                 android:src="@drawable/cinta_metrica"
                 android:scaleType="fitXY"/>
 
-
-
-            
             <TextView
                 android:id="@+id/Txt_Cm"
                 android:layout_width="25dp"
