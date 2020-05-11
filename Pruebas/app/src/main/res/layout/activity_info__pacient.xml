@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info_Pacient"
+
+    android:layout_alignParentBottom="true"
+    android:background="#32b5d5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+
+            android:text="Pacient Info"
+            android:textColorHint="#FFF"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Txt_PID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/Title"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+
+            android:text="PID:"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/Cod_PID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@id/Txt_PID"
+            android:layout_toEndOf="@id/Txt_PID"
+            android:layout_alignBottom="@id/Txt_PID"
+
+            android:text="P123456789"
+            android:textColor="#FFF"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/Txt_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/Txt_PID"
+            android:layout_alignStart="@id/Txt_PID"
+            android:layout_marginTop="10dp"
+
+            android:text="Name:"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#FFF"/>
+
+        <EditText
+            android:id="@+id/P_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/Txt_Name"
+            android:layout_toEndOf="@id/Txt_Name"
+            android:layout_alignEnd="@id/P_Location"
+            android:layout_alignBottom="@id/Txt_Name"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="0dp"
+            android:padding="10dp"
+
+            android:hint="Juan Antonio Hernandez Gutierrez"
+            android:textColorHint="#fff"
+            android:background="@drawable/border"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/Txt_Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/Txt_Name"
+            android:layout_alignStart="@id/Txt_Name"
+            android:layout_marginTop="10dp"
+
+            android:text="Location:"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#FFF"/>
+
+        <EditText
+            android:id="@+id/P_Location"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/Txt_Location"
+            android:layout_toEndOf="@id/Txt_Location"
+            android:layout_alignBottom="@id/Txt_Location"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="0dp"
+            android:padding="10dp"
+
+            android:hint="Guadalajara Jal. México"
+            android:textColorHint="#FFF"
+            android:background="@drawable/border"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/Txt_Weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/Txt_Location"
+            android:layout_alignStart="@id/Txt_Location"
+            android:layout_marginTop="10dp"
+
+            android:text="Weight:"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#FFF"/>
+
+        <EditText
+            android:id="@+id/P_Weight"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/Txt_Weight"
+            android:layout_toEndOf="@id/Txt_Weight"
+            android:layout_alignBottom="@id/Txt_Weight"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="0dp"
+            android:padding="10dp"
+
+            android:hint="100"
+            android:textColorHint="#FFF"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/Kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@id/P_Weight"
+            android:layout_toEndOf="@+id/P_Weight"
+            android:layout_alignBottom="@id/P_Weight"
+            android:layout_marginStart="5dp"
+
+            android:text="KG"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:textColor="#FFF"
+            android:gravity="bottom"/>
+
+        <TextView
+            android:id="@+id/Txt_Height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/Txt_Weight"
+            android:layout_toEndOf="@+id/Kg"
+            android:layout_alignBottom="@id/Txt_Weight"
+            android:layout_marginStart="20dp"
+
+            android:text="Height:"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#FFF"/>
+
+        <EditText
+            android:id="@+id/P_Height"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/Txt_Height"
+            android:layout_toEndOf="@id/Txt_Height"
+            android:layout_alignBottom="@id/Txt_Height"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="0dp"
+            android:padding="10dp"
+
+            android:hint="136"
+            android:textColorHint="#FFF"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/Cm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+                android:layout_alignTop="@id/P_Height"
+            android:layout_toEndOf="@+id/P_Height"
+            android:layout_alignBottom="@id/P_Height"
+            android:layout_marginStart="5dp"
+
+            android:text="CM"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:textColor="#FFF"
+            android:gravity="bottom"/>
+
+        <TextView
+            android:id="@+id/Txt_Cellphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/Txt_Weight"
+            android:layout_alignStart="@id/Txt_Weight"
+            android:layout_marginTop="10dp"
+
+            android:text="Cellphone:"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#FFF"/>
+
+        <TextView
+            android:id="@+id/Inicial_Num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/Txt_Cellphone"
+            android:layout_toEndOf="@id/Txt_Cellphone"
+            android:layout_alignBottom="@id/Txt_Cellphone"
+            android:layout_marginStart="10dp"
+
+            android:text="(33)"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#FFF"/>
+
+        <EditText
+            android:id="@+id/P_Cellphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/Txt_Cellphone"
+            android:layout_toEndOf="@id/Inicial_Num"
+            android:layout_alignEnd="@+id/P_Location"
+            android:layout_alignBottom="@id/Txt_Cellphone"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="0dp"
+            android:padding="1dp"
+            android:paddingStart="10dp"
+
+            android:hint="6789 7645"
+            android:textColorHint="#FFF"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/Txt_Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/Txt_Cellphone"
+            android:layout_alignStart="@id/Txt_Cellphone"
+            android:layout_marginTop="10dp"
+
+            android:text="Email:"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#FFF"/>
+
+        <EditText
+            android:id="@+id/P_Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/Txt_Email"
+            android:layout_toEndOf="@id/Txt_Email"
+            android:layout_alignEnd="@+id/P_Location"
+            android:layout_alignBottom="@id/Txt_Email"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="0dp"
+            android:padding="10dp"
+
+            android:hint="juanantoniohrnendez@gmail.com"
+            android:textColorHint="#FFF"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:textSize="15sp"
+
+            android:ems="10"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/Txt_Birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/Txt_Email"
+            android:layout_alignStart="@id/Txt_Email"
+            android:layout_marginTop="10dp"
+
+            android:text="Birthday:"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#FFF"/>
+
+        <EditText
+            android:id="@+id/P_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/Txt_Birthday"
+            android:layout_toEndOf="@id/Txt_Birthday"
+            android:layout_alignEnd="@+id/P_Height"
+            android:layout_alignBottom="@id/Txt_Birthday"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="0dp"
+            android:padding="5dp"
+
+            android:hint="DD / MMM / AAAA"
+            android:textColorHint="#FFF"
+            android:textColor="#FFF"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:textSize="15sp"
+
+            android:ems="10"
+            android:inputType="date"/>
+
+        <ImageView
+            android:id="@+id/btn_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/P_Date"
+            android:layout_toEndOf="@+id/P_Date"
+            android:layout_alignEnd="@+id/P_Location"
+            android:layout_alignBottom="@+id/P_Date"
+            android:layout_marginStart="0dp"
+
+            android:src="@drawable/calendario"
+            android:scaleType="fitXY"
+            android:onClick="M_Calendar"/>
+
+        <TextView
+            android:id="@+id/Txt_H_Medic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/Txt_Birthday"
+            android:layout_marginTop="25dp"
+
+            android:text="Medical History"
+            android:textSize="30dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/P_H_Medic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/Txt_H_Medic"
+            android:layout_alignStart="@+id/Txt_H_Medic"
+            android:layout_alignEnd="@+id/Txt_H_Medic"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="0dp"
+            android:padding="10dp"
+
+            android:hint="@string/Medical_History"
+            android:textColorHint="#FFF"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_Accept"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/P_H_Medic"
+            android:layout_alignStart="@+id/P_H_Medic"
+            android:layout_toStartOf="@+id/btn_Cancel"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="20dp"
+
+            android:text="Accept"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:background="@drawable/radius"
+            android:backgroundTint="#09bc00"/>
+
+        <Button
+            android:id="@+id/btn_Cancel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/P_H_Medic"
+            android:layout_alignEnd="@+id/P_H_Medic"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="20dp"
+
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:background="@drawable/radius"
+            android:backgroundTint="#d50000"/>
+
+    </RelativeLayout>
+</ScrollView>

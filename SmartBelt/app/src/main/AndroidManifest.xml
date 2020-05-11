@@ -10,12 +10,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.Design.NoActionBar"
         android:usesCleartextTraffic="true">
         <activity android:name=".Bienvenido"></activity>
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login" />
+=======
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".Pacient" />
+>>>>>>> ed7c497e4b29369d0c7fac2ad2cf4c3626ecede8
         <activity
             android:name=".popup_privacy"
             android:theme="@style/AppTheme.Popup" />
