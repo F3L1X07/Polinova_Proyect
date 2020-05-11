@@ -87,37 +87,3 @@ Bitácora de Actualizaciones del Proyecto
 ♣
 
 ★♣♠♥♦♪ΩΠ§∆ <!-- Necesario para continuar con el proyecto, Fase 2 (Menu Principal y Fragments) --> ∆§ΠΩ♪♦♥♠♣★
-
-07/05/2020 02:58am (FELIX)
-♣Finalización del diseño del activity designado para la visualización de la información del paciente
- (Persona de Alto Riesgo)
-♣Falta: Realizar el diseño del activity Principal en el cual se mostrará el ubicación en tiempo real del
-	paciente a traves de una pagina web prediseñada anteriormente, donde aparecera el botón para el acceso
-	a la información del paciente (Datos Generales [Activity "Pacient"])
-♣Falta: Realizar el diseño del activity donde se realizaran los cambios de datos en la base de datos
-	para ser mostrada en el activity de "Pacient"
-♣Falta: Realizar la asignación de la función de Pop Up al Activity "Pacient"
-♠Anotación: Se hará un cambio en el inicio de la aplicación para visualizar el activity principal y así
-	    comprobar si el activity "Pacient" funciona a la perfección.
-
-07/05/2020 06:17pm (FELIX)
-♣Finalización del diseño correspondiente al activity "Pacient_Info" destinado al cambio de información que se
- mostrara en el activity "Pacient" en el cual el usuario podrá observar la información proporcionada respecto
- a su "Paciente" o Familiar al cual se esta cuidando.
-♠Anotación: Todos estos procesos se han realizado en un proyecto prueba por lo cual no se verán reflejado en el
-	    Proyecto Definitivo
-
-08/05/2020 12:02am (FELIX)
-♣Finalización del diseño para el activity "Pacient_Info" en el Proyecto definitivo
-♣Falta: Relizar la Programación del EditText "Date" para seleccionar dia a insertar en el Formulario de una
-	forma mas rapida y comoda.
-♣Falta: Realizar la programación PHP de los activities tanto "Pacient" como "Pacient_Info" para su termino
-	definitivo.
-♣Finalización del diseño basico del activity principal, donde se mistrará la ubicación del GPS
-♣Falta: Cambiar las imagenes que funcionarán como botones por las correspondientes
-♣Falta: Realizar la Programación de la Imagen asignada al Menu en la cual se accederá al activity "Pacient"
-	en forma de Pop Up.
-♣Falta: Crear un ultimo activity designado solo a la visualización de la informacion de usuario básica
-	"Username" y "Email" y posible cambio de contraseña (Si se autoriza por Joselyne).
-♦Problema: Se encontro un problema a la hora de programar el acceso a la página web designada para la visualización
-	   de la ubicación en tiempo real del Paciente (Familiar). mas información en la Bitácora de Errores

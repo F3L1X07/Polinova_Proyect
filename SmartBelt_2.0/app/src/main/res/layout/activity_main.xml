@@ -1,60 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".MainActivity">
 
-    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/Menu_Pacient"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-
-            android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true"
-
-            android:src="@drawable/cinta_metrica"
-            android:scaleType="fitXY"/>
-
-        <TextView
-            android:id="@+id/Title_Location"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_alignParentTop="true"
-            android:layout_toEndOf="@+id/Menu_Pacient"
-            android:layout_toStartOf="@+id/Menu_User"
-            android:layout_alignBottom="@+id/Menu_Pacient"
-
-            android:text="Location (GPS)"
-            android:textColor="#000"
-            android:textStyle="bold"
-            android:textSize="30sp"
-            android:gravity="center"/>
-
-        <ImageView
-            android:id="@+id/Menu_User"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-
-            android:src="@drawable/calendario"
-            android:scaleType="fitXY"/>
-
-        <WebView
-            android:id="@+id/Web_GPS"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-
-            android:layout_below="@+id/Menu_Pacient"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="20dp" />
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

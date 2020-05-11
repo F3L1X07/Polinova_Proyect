@@ -31,7 +31,7 @@ public class PopUp_Information extends AppCompatActivity {
         Exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onBackPressed();
+                startActivity(new Intent(PopUp_Information.this, Get_Start.class));
             }
         });
 
@@ -39,7 +39,7 @@ public class PopUp_Information extends AppCompatActivity {
         Accept.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onBackPressed();
+                startActivity(new Intent(PopUp_Information.this, Get_Start.class));
             }
         });
     }

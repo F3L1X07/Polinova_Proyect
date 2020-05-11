@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.smartbelt.smartbelt.ultimate">
+<uses-permission android:name="android.permission.INTERNET" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,13 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Pacient_Info"></activity>
-        <activity android:name=".Pacient" />
+
         <activity
             android:name=".PopUp_Privacy"
-            android:theme="@style/AppTheme.Popup" />
+            android:theme="@style/AppTheme.Popup"/>
         <activity
             android:name=".PopUp_Information"
+            android:theme="@style/AppTheme.Popup" />
+        <activity
+            android:name=".Pop_up_privacy"
             android:theme="@style/AppTheme.Popup" />
         <activity android:name=".Sign_In" />
         <activity android:name=".Sign_Up" />
