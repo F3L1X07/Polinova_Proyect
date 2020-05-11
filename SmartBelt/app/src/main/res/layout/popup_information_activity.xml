@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".PopUp_Information">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Exit_Image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+
+                android:textAlignment="center"
+                android:src="@drawable/close3"/>
+
+            <ImageView
+                android:id="@+id/Information_Image"
+                android:layout_width="wrap_content"
+                android:layout_height="96dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="50dp"
+
+                android:src="@drawable/info"/>
+
+            <TextView
+                android:id="@+id/Information_Title"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+
+                android:layout_below="@+id/Information_Image"
+                android:layout_alignStart="@+id/Information_Image"
+                android:layout_alignEnd="@+id/Information_Image"
+                android:layout_marginTop="0dp"
+
+                android:text="About Us"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#1d1d1d" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/Frag_Txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/Information_Title"
+                android:layout_alignStart="@+id/Information_Title"
+                android:layout_alignEnd="@+id/Information_Title"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="0dp"
+
+                android:text="@string/About_Us_1"
+                android:textColor="#000"/>
+
+            <Button
+                android:id="@+id/Accept_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/Frag_Txt"
+                android:layout_alignStart="@id/Frag_Txt"
+                android:layout_alignEnd="@id/Frag_Txt"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+
+                android:background="@drawable/boton_redondo"
+                android:backgroundTint="#AAA"
+                android:text="Accept"
+                android:textColor="#FFF"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

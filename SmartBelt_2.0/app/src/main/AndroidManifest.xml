@@ -24,14 +24,14 @@
         <activity android:name=".Sign_In" />
         <activity android:name=".Sign_Up" />
         <activity android:name=".Get_Start" />
-        <activity android:name=".Splash"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"/>
     </application>
 
 </manifest>

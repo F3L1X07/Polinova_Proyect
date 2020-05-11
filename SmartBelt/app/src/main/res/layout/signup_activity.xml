@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".Sign_Up">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/SignUp_Text"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="103dp"
+
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="50sp"/>
+
+        <ImageView
+            android:id="@+id/Back_btn"
+            android:layout_width="186dp"
+            android:layout_height="38dp"
+
+            android:layout_alignStart="@+id/SignUp_Text"
+            android:layout_alignBottom="@+id/SignUp_Text"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-90dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="-90dp"
+            android:layout_marginBottom="29dp"
+            android:layout_toStartOf="@+id/SignUp_Text"
+            android:scaleType="fitXY"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/SignUp_Image"
+            android:layout_width="wrap_content"
+            android:layout_height="267dp"
+
+            android:layout_alignStart="@+id/SignUp_Text"
+            android:layout_alignTop="@+id/SignUp_Text"
+            android:layout_alignEnd="@+id/SignUp_Text"
+            android:layout_marginStart="-42dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="-42dp"
+            android:layout_marginBottom="-300dp"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/sing_up" />
+
+        <EditText
+            android:id="@+id/Username_SU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/SignUp_Image"
+            android:layout_alignStart="@+id/SignUp_Image"
+            android:layout_alignEnd="@+id/SignUp_Image"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginEnd="0dp"
+
+            android:drawableLeft="@drawable/username_icon_white"
+            android:hint="Username"
+            android:textColorHint="#FFF"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/Email_SU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/Username_SU"
+            android:layout_alignStart="@+id/SignUp_Image"
+            android:layout_alignEnd="@+id/SignUp_Image"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="0dp"
+
+            android:drawableLeft="@drawable/email_icon_white"
+            android:hint="Email"
+            android:textColorHint="#FFF"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/Password_SU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/Email_SU"
+            android:layout_alignStart="@+id/SignUp_Image"
+            android:layout_alignEnd="@+id/SignUp_Image"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="0dp"
+
+            android:drawableLeft="@drawable/password_icon_white"
+            android:hint="Password"
+            android:textColorHint="#FFF"
+            android:textColor="#FFF"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/Register_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/Password_SU"
+            android:layout_alignStart="@+id/SignUp_Image"
+            android:layout_alignEnd="@+id/SignUp_Image"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="62dp"
+            android:layout_marginEnd="0dp"
+
+            android:background="@drawable/boton_redondo"
+            android:textAlignment="center"
+            android:text="Register"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"/>
+
+        <TextView
+            android:id="@+id/Privacy_SU"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+
+            android:layout_below="@+id/Register_btn"
+            android:layout_alignStart="@+id/SignUp_Image"
+            android:layout_alignEnd="@+id/SignUp_Image"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="0dp"
+
+            android:text="Notice of Privacy"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+</ScrollView>

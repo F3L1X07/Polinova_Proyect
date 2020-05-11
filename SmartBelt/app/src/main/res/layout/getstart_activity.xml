@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".Get_Start">
+
+    <ScrollView
+        android:id="@+id/Scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Title1_GetStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="60dp"
+
+                android:text="Smart Belt"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="36sp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/Logo_Image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_below="@+id/Title1_GetStart"
+                android:layout_alignStart="@+id/Title1_GetStart"
+                android:layout_alignEnd="@+id/Title1_GetStart"
+                android:layout_marginStart="-30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="-30dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Title1_GetStart"
+
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/Text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/Logo_Image"
+                android:layout_alignStart="@+id/Logo_Image"
+                android:layout_alignEnd="@+id/Logo_Image"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:text="Select Action"
+                android:textAlignment="center"/>
+
+            <GridLayout
+                android:id="@+id/GridLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/Text1"
+                android:layout_marginTop="5dp"
+
+                android:columnCount="2"
+                android:columnOrderPreserved="false"
+                android:rowCount="1">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+
+                    android:layout_margin="12dp"
+                    android:background="@drawable/button_cardview"
+                    android:backgroundTint="#F0EC296D"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:id="@+id/Login_btn"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100sp"
+
+                            android:scaleType="fitXY"
+                            android:src="@drawable/sing_in" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+
+                            android:text="Login"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+
+                    android:layout_margin="12dp"
+                    android:background="@drawable/button_cardview"
+                    android:backgroundTint="#FF9800"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:id="@+id/SignUp_btn"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100sp"
+
+                            android:scaleType="fitXY"
+                            android:src="@drawable/sing_up" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_gravity="center"
+                            android:layout_marginTop="12dp"
+
+                            android:text="Register"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+            <ImageView
+                android:id="@+id/Info_btn"
+                android:layout_width="89dp"
+                android:layout_height="100dp"
+
+                android:layout_below="@+id/GridLay"
+                android:layout_alignStart="@id/GridLay"
+                android:layout_alignEnd="@id/GridLay"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="160dp"
+                android:layout_marginEnd="160dp"
+                android:src="@drawable/info" />
+
+            <TextView
+                android:id="@+id/Info_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/Info_btn"
+                android:layout_alignStart="@id/Info_btn"
+                android:layout_alignEnd="@id/Info_btn"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="-100dp"
+                android:layout_marginEnd="-100dp"
+                android:layout_marginBottom="30dp"
+
+                android:text="App Info"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

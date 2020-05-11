@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PopUp_Privacy">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/Close_Privacy"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+
+                android:textAlignment="center"
+                app:srcCompat="@drawable/close_2" />
+
+            <ImageView
+                android:id="@+id/Info_Image"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="50dp"
+
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/info2"
+                tools:layout_editor_absoluteY="21dp" />
+
+            <TextView
+                android:id="@+id/Privacy_Title"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+
+                android:layout_below="@+id/Info_Image"
+                android:layout_alignStart="@+id/Info_Image"
+                android:layout_alignEnd="@+id/Info_Image"
+                android:layout_marginTop="0dp"
+
+                android:text="NOTICE OF PRIVACY"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#1d1d1d" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/Privacy_Txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/Privacy_Title"
+                android:layout_alignStart="@+id/Privacy_Title"
+                android:layout_alignEnd="@+id/Privacy_Title"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="0dp"
+
+                android:text="@string/Privacy_Text"
+                android:textColor="#191919"
+                android:textSize="15dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/Privacy_Txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/Privacy_Txt"
+                android:layout_alignStart="@+id/Privacy_Txt"
+                android:layout_alignEnd="@+id/Privacy_Txt"
+                android:layout_marginTop="20dp"
+
+                android:text="@string/Privacy_Text2"
+                android:textColor="#000"
+                android:textSize="15dp"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/Privacy_Txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/Privacy_Txt2"
+                android:layout_alignStart="@+id/Privacy_Txt2"
+                android:layout_alignEnd="@+id/Privacy_Txt2"
+                android:layout_marginTop="20dp"
+
+                android:text="@string/Privacy_Text3"
+                android:textColor="#000"
+                android:textSize="15dp"/>
+
+            <Button
+                android:id="@+id/Accept_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/Privacy_Txt3"
+                android:layout_alignStart="@id/Privacy_Txt3"
+                android:layout_alignEnd="@id/Privacy_Txt3"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+
+                android:background="@drawable/boton_redondo"
+                android:backgroundTint="#AAA"
+                android:text="Accept"
+                android:textColor="#FFF"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

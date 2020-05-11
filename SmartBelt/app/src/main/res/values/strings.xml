@@ -1,14 +1,58 @@
 <resources>
     <string name="app_name">SmartBelt</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
 
-    <string name="title_activity_splash">Splash Scren</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="Privacy_Text">
+        This Privacy Policy describes how and when we collect, use and share your information on our web pages, SMS, APIs, email notifications,
+        buttons, widgets, advertisements, commerce services and in our other services linked to this Policy (called collectively the and
+        how our partners and third parties do it. For example, you send us information when you use our Services through the Internet,
+        SMS or an application such as Twitter for Mac, Twitter for Android or TweetDeck. By using any of our Services,
+        you consent to the collection, transfer, manipulation, storage, disclosure and other uses of your information as
+        described in this Privacy Policy. This includes any information you choose to provide that is considered confidential under
+        applicable law. Whichever country you reside in, you authorize us to transfer, store and use your information in Mexico and in
+        any other country in which we operate. In some of these countries, data protection and privacy laws and regulations on when government
+        authorities can access data may differ from those in the country in which you live. We collect the content and other information
+        you provide when you use the Services, including information about yourself and others, such as the data you provide when creating
+        an account and the content you create or provide through the App, including photos
+    </string>
 
-    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="Privacy_Text2">
+        Communication.  We use the information we have, including your contact information, to communicate with
+        you regarding our Services, to send you marketing messages that we believe may be of interest to you, and to inform
+        you of our products, services, policies and conditions.  We also use the information we have to respond to you when you contact us.
+    </string>
 
-    <string name="text_notice_of_privacy">"Este es el texto del aviso de privacidad. Joselyne Cruz de Alba......</string>
+    <string name="Privacy_Text3">
+        Promote safety and security.  It is important to clarify that we use the information we have to promote security and protection
+        in our Services and to investigate the use of our Services, including any suspicious activity or possible violations of our
+        Conditions and policies.
+    </string>
+
+    <string name="Information_Text">
+        La aplicación esta diseñada para las personas con enfermedades degenerativas de alta prioridad como podrian ser: Cancer, Alzheimer,
+        Diabetes, etc. Ya que estas enfermedades requieren la supervición de las personas a cargo de ellas (Cuidadores), para conocer
+        el estado de la persona, asi como su ubicación para evitar accidentes y mejorar asi el estilo de vida tanto de las Familiares
+        como para las personas que padecen dicha enfermedad
+    </string>
+
+    <string name="About_Us_1">
+        SmartBelt is an application linked to the SmartBelt belt where the patients caregiver administers and carries
+        out all the settings, records, administration and supervision of its functions, including: personal account management,
+        medical history record, registration and administration of medications, pending medical studies and,
+        scheduled alarms and reminders, display on the map of the location of the belt, and general system settings.
+    </string>
+
+    <string name="About_Us_2">
+        We are the perfect tool to help families and geriatric caregivers in the supervision and care of people of the third
+        age or with chronic and severe diseases that require it.
+    </string>
+
+    <string name="Medical_History">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id est laborum.
+    </string>
+
 </resources>
+
