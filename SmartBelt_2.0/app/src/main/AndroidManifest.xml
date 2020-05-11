@@ -13,6 +13,10 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Pacient_Info"></activity>
         <activity android:name=".Pacient" />
+
+
+
+
         <activity
             android:name=".PopUp_Privacy"
             android:theme="@style/AppTheme.Popup" />
