@@ -49,7 +49,6 @@ public class Sign_Up extends AppCompatActivity {
                                 Intent i = new Intent(Sign_Up.this, Sign_In.class);
                                 Sign_Up.this.startActivity(i);
                                 Sign_Up.this.finish();
-x
                             } else {
                                 AlertDialog.Builder alerta = new AlertDialog.Builder(Sign_Up.this);
                                 alerta.setMessage("Fallo en el regisro")
