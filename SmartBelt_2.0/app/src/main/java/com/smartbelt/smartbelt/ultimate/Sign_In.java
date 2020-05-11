@@ -1,12 +1,6 @@
 package com.smartbelt.smartbelt.ultimate;
 
-import androidx.appcompat.app.AppCompatActivity;
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,11 +9,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.JsonRequest;
 import com.android.volley.toolbox.Volley;
@@ -75,7 +70,7 @@ btnConsultar.setOnClickListener(new View.OnClickListener() {
 
     @Override
     public void onErrorResponse(VolleyError error) {
-        Toast.makeText(getApplicationContext(), "Se ha encontrado el usuario" + error.toString(), Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext( ), "No se ha encontrado el usuario" + error.toString(), Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -101,7 +96,7 @@ btnConsultar.setOnClickListener(new View.OnClickListener() {
     }
 
     private  void iniciarSesion(){
-        String url = "http://192.168.1.77/Login/sesion_2.php?User=" + cajaUser.getText().toString()+
+        String url = "http://192.168.1.77/login/sesion.php?User=" + cajaUser.getText().toString()+
                 "&Password="+cajaPwd.getText().toString();
 
         jrq = new JsonObjectRequest(Request.Method.GET, url,null,this,this);
