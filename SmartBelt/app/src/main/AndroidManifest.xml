@@ -12,10 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Bienvenido"></activity>
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:label="@string/title_activity_login" />
+
+        <activity android:name=".Bienvenido"/>
+
         <activity
             android:name=".popup_privacy"
             android:theme="@style/AppTheme.Popup" />
