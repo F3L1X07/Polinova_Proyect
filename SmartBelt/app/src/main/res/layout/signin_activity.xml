@@ -61,8 +61,8 @@
             android:scaleType="fitXY"
             android:src="@drawable/sing_in" />
 
-        <EditText
-            android:id="@+id/Username_SI"
+        <TextView
+            android:id="@+id/Email_SI"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -74,17 +74,16 @@
             android:layout_marginEnd="0dp"
 
             android:drawableLeft="@drawable/username_icon_white"
-            android:hint="Username"
-            android:textColorHint="#FFF"
             android:textColor="#FFF"
+            android:textColorHint="#FFF"
             android:textSize="25sp" />
 
-        <EditText
+        <TextView
             android:id="@+id/Password_SI"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:layout_below="@+id/Username_SI"
+            android:layout_below="@+id/Email_SI"
             android:layout_alignStart="@+id/SignIn_Image"
             android:layout_alignEnd="@+id/SignIn_Image"
             android:layout_marginStart="0dp"
@@ -92,13 +91,14 @@
             android:layout_marginEnd="0dp"
 
             android:drawableLeft="@drawable/password_icon_white"
-            android:hint="Password"
-            android:textColorHint="#FFF"
             android:textColor="#FFF"
+            android:textColorHint="#FFF"
             android:textSize="25sp" />
 
+
         <Button
-            android:id="@+id/Login_btn"
+
+            android:id="@+id/Sign_in_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -106,22 +106,42 @@
             android:layout_alignStart="@+id/SignIn_Image"
             android:layout_alignEnd="@+id/SignIn_Image"
             android:layout_marginStart="0dp"
-            android:layout_marginTop="62dp"
-            android:layout_marginEnd="0dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="1dp"
 
             android:background="@drawable/boton_redondo"
+            android:text="TO ACCESS"
             android:textAlignment="center"
-            android:text="Login"
+            android:textColor="#FFF"
             android:textSize="26sp"
-            android:textStyle="bold"
-            android:textColor="#FFF"/>
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cerrar_sesion_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Password_SI"
+
+            android:layout_alignStart="@+id/SignIn_Image"
+            android:layout_alignEnd="@+id/SignIn_Image"
+            android:layout_marginStart="-5dp"
+            android:layout_marginTop="71dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/boton_redondo"
+
+            android:onClick="cerrarsesion"
+            android:text="SIGN OFF"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/Privacy_SI"
             android:layout_width="wrap_content"
             android:layout_height="64dp"
 
-            android:layout_below="@+id/Login_btn"
+            android:layout_below="@+id/cerrar_sesion_btn"
             android:layout_alignStart="@+id/SignIn_Image"
             android:layout_alignEnd="@+id/SignIn_Image"
             android:layout_marginStart="0dp"
@@ -132,6 +152,7 @@
             android:textAlignment="center"
             android:textColor="#FFF"
             android:textSize="20sp"/>
+
 
     </RelativeLayout>
 

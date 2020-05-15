@@ -54,5 +54,9 @@
         id est laborum.
     </string>
 
+    <string name="facebook_application_id" translatable="false">1378404452505985</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb1378404452505985</string>
+
+
 </resources>
 

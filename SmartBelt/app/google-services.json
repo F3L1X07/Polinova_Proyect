@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "218995278089",
+    "firebase_url": "https://smartbelt-ultimate.firebaseio.com",
+    "project_id": "smartbelt-ultimate",
+    "storage_bucket": "smartbelt-ultimate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218995278089:android:ac16cb1bbb8201bf7693d8",
+        "android_client_info": {
+          "package_name": "com.smartbelt.smartbelt.ultimate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218995278089-a2djj74obd7phrh7m6jugdgnablrc7f5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartbelt.smartbelt.ultimate",
+            "certificate_hash": "e9ef905584a3ac8bed70d4707c482966cc5f7ae0"
+          }
+        },
+        {
+          "client_id": "218995278089-00pp2pqa247fpvaium8ssk0fecllqa5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3BgIld8gMqBgVVlCvoqJFNUER3XvRuXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218995278089-00pp2pqa247fpvaium8ssk0fecllqa5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
