@@ -98,7 +98,7 @@
 
         <Button
 
-            android:id="@+id/Sign_in_btn"
+            android:id="@+id/Sign_off_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -109,28 +109,29 @@
             android:layout_marginTop="18dp"
             android:layout_marginEnd="1dp"
 
+
             android:background="@drawable/boton_redondo"
-            android:text="TO ACCESS"
+            android:text="SIGN OFF"
             android:textAlignment="center"
             android:textColor="#FFF"
             android:textSize="26sp"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/cerrar_sesion_btn"
+            android:id="@+id/To_access_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/Password_SI"
 
             android:layout_alignStart="@+id/SignIn_Image"
             android:layout_alignEnd="@+id/SignIn_Image"
-            android:layout_marginStart="-5dp"
-            android:layout_marginTop="71dp"
-            android:layout_marginEnd="6dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="3dp"
             android:background="@drawable/boton_redondo"
 
-            android:onClick="cerrarsesion"
-            android:text="SIGN OFF"
+
+            android:text="TO  ACCESS"
             android:textAlignment="center"
             android:textColor="#FFF"
             android:textSize="26sp"
@@ -141,7 +142,7 @@
             android:layout_width="wrap_content"
             android:layout_height="64dp"
 
-            android:layout_below="@+id/cerrar_sesion_btn"
+            android:layout_below="@+id/To_access_btn"
             android:layout_alignStart="@+id/SignIn_Image"
             android:layout_alignEnd="@+id/SignIn_Image"
             android:layout_marginStart="0dp"

@@ -1,6 +1,5 @@
 package com.smartbelt.smartbelt.ultimate;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -8,12 +7,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.ImageView;
-
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.net.URL;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -50,3 +45,4 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+

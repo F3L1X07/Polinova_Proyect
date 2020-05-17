@@ -18,11 +18,9 @@ import kotlinx.android.synthetic.main.signup_activity.*
 import java.util.*
 import kotlin.jvm.java as java1
 
-
 enum class ProviderType{
     BASIC
 }
-
 
 class Sign_In : AppCompatActivity() {
     private var Back: ImageView? = null
@@ -63,17 +61,15 @@ class Sign_In : AppCompatActivity() {
         Email_SI.text = email
         Password_SI.text = provider
 
-        Sign_in_btn.setOnClickListener {
+        Sign_off_btn.setOnClickListener{
             if (Email_SU.text.isNotEmpty() && Password_SU.text.isNotEmpty()) {
-                FirebaseAuth.getInstance().signInWithEmailAndPassword(Email_SU.text.toString(), Password_SU.text.toString())
+                FirebaseAuth.getInstance().signInWithEmailAndPassword(Email_SU.text.toString(),
+                        Password_SU.text.toString())
                         .addOnCompleteListener() {
                             if (it.isSuccessful) {
-                                showHome2(it.result?.user?.email ?: "", ProviderType.BASIC)
-
-
-
-
-
+                              //  showHome(it.result?.user?.email ?: "", ProviderType.BASIC)
+                                val Change = Intent(this, MainActivity::class.java1)
+                                startActivity(Change)
                             } else {
                                 showAlert()
 
@@ -82,15 +78,13 @@ class Sign_In : AppCompatActivity() {
             }//fin if
         }
 
-
-    cerrar_sesion_btn.setOnClickListener{
+        To_access_btn.setOnClickListener{
         FirebaseAuth.getInstance().signOut()
-        val Change = Intent(this, Sign_Up::class.java1)
-        startActivity(Change)
+        val Change2 = Intent(this, MainActivity::class.java1)
+        startActivity(Change2)
     }
 
 }
-
 
         private fun showAlert() {
             val builder = AlertDialog.Builder(this)
@@ -102,14 +96,14 @@ class Sign_In : AppCompatActivity() {
         }
 
 
-        private fun showHome2(email: String?, provider: ProviderType) {
+     /*   private fun showHome(email: String?, provider: ProviderType) {
             val homeIntent = Intent(this, MainActivity::class.java1).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
-          //  startActivity(homeIntent)
+           startActivity(homeIntent)
         }
-
+*/
 
 
     }
