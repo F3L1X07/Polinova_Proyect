@@ -45,7 +45,6 @@
             android:layout_alignParentEnd="true"
 
             android:scaleType="fitXY"
-            android:src="@drawable/usuario"
             app:srcCompat="@drawable/maps" />
 
         <WebView

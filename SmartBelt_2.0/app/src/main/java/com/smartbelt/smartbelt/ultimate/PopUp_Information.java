@@ -1,13 +1,12 @@
 package com.smartbelt.smartbelt.ultimate;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class PopUp_Information extends AppCompatActivity {
 
@@ -44,3 +43,5 @@ public class PopUp_Information extends AppCompatActivity {
         });
     }
 }
+
+

@@ -19,16 +19,16 @@ class Sign_Up : AppCompatActivity() {
         //Cambio de Activity (Botones)
         Back = findViewById<View>(R.id.Back_btn) as ImageView
         Back!!.setOnClickListener {
-            val Change = Intent(this@Sign_Up, Sign_In::class.java)
-            startActivity(Change)
+            val Change4 = Intent(this@Sign_Up, Sign_In::class.java)
+            startActivity(Change4)
         }
 
 
         privacy_ventana = findViewById(R.id.Privacy_SU)
         privacy_ventana!!.setOnClickListener {
 
-            val Change2 = Intent(this@Sign_Up, PopUp_Privacy::class.java)
-            startActivity(Change2)
+            val Change3 = Intent(this@Sign_Up, PopUp_Privacy::class.java)
+            startActivity(Change3)
         }
 
         setup()
@@ -37,13 +37,16 @@ class Sign_Up : AppCompatActivity() {
 
     }//Aqui termina OnCreate
 
+
     private fun setup(){
+
         Register_btn.setOnClickListener{
             if (Email_SU.text.isNotEmpty()&& Password_SU.text.isNotEmpty()){
+
                 FirebaseAuth.getInstance().createUserWithEmailAndPassword(Email_SU.text.toString(),
                         Password_SU.text.toString()).addOnCompleteListener(){
                             if (it.isSuccessful){
-                                showHome(it.result?.user?.email?:"", ProviderType.BASIC)
+                                showHome(it.result?.user?.email?:"", password = "")
                               //  val Change = Intent(this, Sign_In::class.java)
                                 //startActivity(Change)
 
@@ -68,10 +71,10 @@ class Sign_Up : AppCompatActivity() {
 
 
 
-    private fun showHome(email: String?, provider: ProviderType){
+    private fun showHome(email: String?, password: String?){
         val homeIntent = Intent(this, Sign_In::class.java).apply {
             putExtra("email", email)
-            putExtra("provider", provider)
+            putExtra("password", password)
         }
         startActivity(homeIntent)
 

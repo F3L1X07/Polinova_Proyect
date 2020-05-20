@@ -61,8 +61,9 @@
             android:scaleType="fitXY"
             android:src="@drawable/sing_up" />
 
+
         <EditText
-            android:id="@+id/Username_SU"
+            android:id="@+id/Email_SU"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -70,25 +71,7 @@
             android:layout_alignStart="@+id/SignUp_Image"
             android:layout_alignEnd="@+id/SignUp_Image"
             android:layout_marginStart="0dp"
-            android:layout_marginTop="320dp"
-            android:layout_marginEnd="0dp"
-
-            android:drawableLeft="@drawable/username_icon_white"
-            android:hint="Username"
-            android:textColorHint="#FFF"
-            android:textColor="#FFF"
-            android:textSize="25sp" />
-
-        <EditText
-            android:id="@+id/Email_SU"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_below="@+id/Username_SU"
-            android:layout_alignStart="@+id/SignUp_Image"
-            android:layout_alignEnd="@+id/SignUp_Image"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="340dp"
             android:layout_marginEnd="0dp"
 
             android:drawableLeft="@drawable/email_icon_white"
@@ -106,7 +89,7 @@
             android:layout_alignStart="@+id/SignUp_Image"
             android:layout_alignEnd="@+id/SignUp_Image"
             android:layout_marginStart="0dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="12dp"
             android:layout_marginEnd="0dp"
 
             android:drawableLeft="@drawable/password_icon_white"

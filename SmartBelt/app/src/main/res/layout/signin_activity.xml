@@ -61,7 +61,7 @@
             android:scaleType="fitXY"
             android:src="@drawable/sing_in" />
 
-        <TextView
+        <EditText
             android:id="@+id/Email_SI"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
             android:textColorHint="#FFF"
             android:textSize="25sp" />
 
-        <TextView
+        <EditText
             android:id="@+id/Password_SI"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
 
         <Button
 
-            android:id="@+id/Sign_off_btn"
+            android:id="@+id/To_access_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -111,14 +111,14 @@
 
 
             android:background="@drawable/boton_redondo"
-            android:text="SIGN OFF"
+            android:text="TO ACCESS"
             android:textAlignment="center"
             android:textColor="#FFF"
             android:textSize="26sp"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/To_access_btn"
+            android:id="@+id/Sign_off_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/Password_SI"
@@ -131,7 +131,7 @@
             android:background="@drawable/boton_redondo"
 
 
-            android:text="TO  ACCESS"
+            android:text="SIGN OFF"
             android:textAlignment="center"
             android:textColor="#FFF"
             android:textSize="26sp"

@@ -16,7 +16,8 @@ import com.google.firebase.auth.FirebaseAuth.AuthStateListener
 import kotlinx.android.synthetic.main.signin_activity.*
 import kotlinx.android.synthetic.main.signup_activity.*
 import java.util.*
-import kotlin.jvm.java as java1
+//import kotlin.jvm.java as java1
+
 
 enum class ProviderType{
     BASIC
@@ -38,38 +39,41 @@ class Sign_In : AppCompatActivity() {
         //Cambio de Activity (Botones)
         Back = findViewById<View>(R.id.Back_btn) as ImageView
         Back!!.setOnClickListener {
-            val Change = Intent(this@Sign_In, Get_Start::class.java1)
-            startActivity(Change)
+            val Change6 = Intent(this@Sign_In, Get_Start::class.java)
+            startActivity(Change6)
 
         }
 
         privacy_ventana = findViewById(R.id.Privacy_SI)
         privacy_ventana!!.setOnClickListener {
 
-            val Change2 = Intent(this@Sign_In, PopUp_Privacy::class.java1)
-            startActivity(Change2)
+            val Change7 = Intent(this@Sign_In, PopUp_Privacy::class.java)
+            startActivity(Change7)
         }
 
         val bundle: Bundle? = intent.extras
         val email: String? = bundle?.getString("email")
-        val provider: String? = bundle?.getString("provider")
+        val password: String? = bundle?.getString("password")
 
-        setup(email ?: "", provider ?: "")
+        setup(email ?: "", password ?:"")
     } //Aqui termina OnCreate
 
-    private fun setup(email: String, provider: String) {
-        Email_SI.text = email
-        Password_SI.text = provider
+    private fun setup(email: String, password: String) {
+      //  Email_SI.text = email
+        //Password_SI.text = password
 
-        Sign_off_btn.setOnClickListener{
-            if (Email_SU.text.isNotEmpty() && Password_SU.text.isNotEmpty()) {
-                FirebaseAuth.getInstance().signInWithEmailAndPassword(Email_SU.text.toString(),
-                        Password_SU.text.toString())
+        To_access_btn.setOnClickListener{
+            if (Email_SI.text.isNotEmpty() && Password_SI.text.isNotEmpty()) {
+
+                FirebaseAuth.getInstance()
+                        .signInWithEmailAndPassword(Email_SI.text.toString(),
+                         Password_SI.text.toString())
                         .addOnCompleteListener() {
+
                             if (it.isSuccessful) {
-                              //  showHome(it.result?.user?.email ?: "", ProviderType.BASIC)
-                                val Change = Intent(this, MainActivity::class.java1)
-                                startActivity(Change)
+                             //  showHome(it.result?.user?.email ?: "", ProviderType.BASIC)
+                                val Changesr = Intent(this, MainActivity::class.java)
+                                startActivity(Changesr)
                             } else {
                                 showAlert()
 
@@ -78,13 +82,15 @@ class Sign_In : AppCompatActivity() {
             }//fin if
         }
 
-        To_access_btn.setOnClickListener{
+        Sign_off_btn.setOnClickListener{
         FirebaseAuth.getInstance().signOut()
-        val Change2 = Intent(this, MainActivity::class.java1)
-        startActivity(Change2)
+            onBackPressed()
+      //  val Change2 = Intent(this, Get_Start::class.java)
+        //startActivity(Change2)
     }
 
 }
+
 
         private fun showAlert() {
             val builder = AlertDialog.Builder(this)
@@ -96,8 +102,8 @@ class Sign_In : AppCompatActivity() {
         }
 
 
-     /*   private fun showHome(email: String?, provider: ProviderType) {
-            val homeIntent = Intent(this, MainActivity::class.java1).apply {
+   /*    private fun showHome(email: String?, provider: ProviderType) {
+            val homeIntent = Intent(this, MainActivity::class.java).apply {
                 putExtra("email", email)
                 putExtra("provider", provider)
             }
@@ -106,6 +112,7 @@ class Sign_In : AppCompatActivity() {
 */
 
 
-    }
+}
+
 
 
