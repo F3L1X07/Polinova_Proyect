@@ -36,7 +36,7 @@
             <ImageView
                 android:id="@+id/User"
                 android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_height="100dp"
 
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true"
@@ -96,8 +96,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true"
                 android:layout_marginTop="0dp"
-                android:layout_marginStart="50dp"
-
+                android:layout_marginStart="20dp"
                 android:src="@drawable/calendario"
                 android:scaleType="fitXY"/>
 
@@ -125,9 +124,10 @@
                 android:layout_height="50dp"
 
                 android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/Txt_Birthday"
+                android:layout_toStartOf="@+id/Txt_Kg"
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="10dp"
-                android:layout_toStartOf="@+id/Txt_Kg"
 
                 android:scaleType="fitXY"
                 android:src="@drawable/escala" />
@@ -160,7 +160,7 @@
                 android:layout_alignBottom="@+id/Img_Kg"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="0dp"
-                android:layout_marginEnd="50dp"
+                android:layout_marginEnd="20dp"
                 android:layout_marginBottom="0dp"
 
                 android:gravity="center"
@@ -241,7 +241,7 @@
                 android:layout_alignBottom="@+id/Img_Cm"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="0dp"
-                android:layout_marginEnd="50dp"
+                android:layout_marginEnd="20dp"
                 android:layout_marginBottom="0dp"
 
                 android:gravity="center"
@@ -285,7 +285,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true"
                 android:layout_marginTop="0dp"
-                android:layout_marginStart="50dp"
+                android:layout_marginStart="20dp"
 
                 android:src="@drawable/telefono_inteligente"
                 android:scaleType="fitXY"/>

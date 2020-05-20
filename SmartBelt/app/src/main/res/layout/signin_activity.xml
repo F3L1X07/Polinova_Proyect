@@ -76,6 +76,7 @@
             android:drawableLeft="@drawable/username_icon_white"
             android:textColor="#FFF"
             android:textColorHint="#FFF"
+            android:hint="Email"
             android:textSize="25sp" />
 
         <EditText
@@ -93,6 +94,7 @@
             android:drawableLeft="@drawable/password_icon_white"
             android:textColor="#FFF"
             android:textColorHint="#FFF"
+            android:hint="Password"
             android:textSize="25sp" />
 
 
@@ -142,7 +144,7 @@
             android:layout_width="wrap_content"
             android:layout_height="64dp"
 
-            android:layout_below="@+id/To_access_btn"
+            android:layout_below="@+id/Sign_off_btn"
             android:layout_alignStart="@+id/SignIn_Image"
             android:layout_alignEnd="@+id/SignIn_Image"
             android:layout_marginStart="0dp"

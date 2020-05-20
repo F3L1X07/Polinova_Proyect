@@ -68,7 +68,8 @@ public class Pacient extends AppCompatActivity {
         Exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onBackPressed();
+                Intent ChangeA = new Intent(Pacient.this, MainActivity.class);
+                startActivity(ChangeA);
             }
         });
 

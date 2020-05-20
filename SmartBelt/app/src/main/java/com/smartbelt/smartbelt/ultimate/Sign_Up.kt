@@ -19,7 +19,7 @@ class Sign_Up : AppCompatActivity() {
         //Cambio de Activity (Botones)
         Back = findViewById<View>(R.id.Back_btn) as ImageView
         Back!!.setOnClickListener {
-            val Change4 = Intent(this@Sign_Up, Sign_In::class.java)
+            val Change4 = Intent(this@Sign_Up, Get_Start::class.java)
             startActivity(Change4)
         }
 
