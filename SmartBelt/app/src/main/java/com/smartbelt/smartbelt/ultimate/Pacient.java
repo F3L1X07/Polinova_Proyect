@@ -8,17 +8,30 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class Pacient extends AppCompatActivity {
 
     private ImageView Exit;
     private Button Edit;
 
+   //TextView tvInfoEnviadaName;
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pacient_activity);
 
+        //Recibir Info del Pacient Info
+    /*    tvInfoEnviadaName = (TextView)findViewById(R.id.P_Name_P);
+
+        Bundle bundle = getIntent().getExtras();
+        String dato = bundle.getString("Name").toString();
+        tvInfoEnviadaName.setText(dato);
+*/
         //Regreso al Activity anterior
         Exit = (ImageView) findViewById(R.id.btn_Exit);
         Exit.setOnClickListener(new View.OnClickListener() {

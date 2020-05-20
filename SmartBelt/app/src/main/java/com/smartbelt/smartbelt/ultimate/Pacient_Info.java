@@ -2,12 +2,14 @@ package com.smartbelt.smartbelt.ultimate;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DatabaseReference;
@@ -43,8 +45,14 @@ public class Pacient_Info extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pacientinfo_activity);
+
+
+        //Envio de Datos al otro activity
+     //   mEditTextDatoName = (EditText)findViewById(R.id.P_Name);
 
         //Regreso al Activity anterior
         Cancel = findViewById(R.id.btn_Cancel);
@@ -76,9 +84,9 @@ public class Pacient_Info extends AppCompatActivity {
             }
         };
 
-        mRootReference = FirebaseDatabase.getInstance().getReference(); //inica referencia en el nodo principal.
+
         mButtonSubirDatosFirebase = findViewById(R.id.btn_Accept);
-        mEditTextDatoName = findViewById(R.id.P_Name);
+        mEditTextDatoName = findViewById(R.id.P_Name_P);
         mEditTextDatoLocation = findViewById(R.id.P_Location);
         mEditTextDatoWeight = findViewById(R.id.P_Weight);
         mEditTextDatoHeight = findViewById(R.id.P_Height);
@@ -86,6 +94,24 @@ public class Pacient_Info extends AppCompatActivity {
         mEditTextDatoEmail = findViewById(R.id.P_Email);
         //mEditTextDatoBirthday = findViewById(R.id.P_Date);
         mEditTextDatoMedicalHistory = findViewById(R.id.P_H_Medic);
+
+        mRootReference = FirebaseDatabase.getInstance().getReference(); //inica referencia en el nodo principal.
+
+     /*   mRootReference.child("Usuarios").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()){
+                    Pacient_Info user  = snapshot.getValue(Pacient_Info.class);
+                    Log.e("Datos;",""+ snapshot.getValue());
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        })*/
+
 
 
         mButtonSubirDatosFirebase.setOnClickListener(new View.OnClickListener() {
@@ -101,6 +127,10 @@ public class Pacient_Info extends AppCompatActivity {
                 String MedicalHistory = mEditTextDatoMedicalHistory.getText().toString();
 
                 cargarDatosFirebase(Name, Location, Weight, Height, Cellphone, Email, MedicalHistory);
+
+                Intent completado1  = new Intent(Pacient_Info.this, Pacient.class);
+                //completado1.putExtra("Name", mEditTextDatoName.getText().toString());
+                startActivity(completado1);
             }
         });
 

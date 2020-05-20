@@ -78,7 +78,7 @@
             android:textColor="#FFF"/>
 
         <EditText
-            android:id="@+id/P_Name"
+            android:id="@+id/P_Name_P"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
