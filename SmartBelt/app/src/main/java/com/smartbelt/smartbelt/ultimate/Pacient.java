@@ -15,7 +15,7 @@ public class Pacient extends AppCompatActivity {
     private ImageView Exit;
     private Button Edit;
 
-    TextView msj;
+    TextView msj, msj1,msj2,msj3,msj4,msj5,msj6;
 
    //TextView tvInfoEnviadaName;
 
@@ -28,10 +28,31 @@ public class Pacient extends AppCompatActivity {
         setContentView(R.layout.pacient_activity);
 
         msj = (TextView) findViewById(R.id.P_Name);
+        msj1 = (TextView) findViewById(R.id.Txt_Loca);
+        msj2 = (TextView) findViewById(R.id.Txt_Kg);
+        msj3 = (TextView) findViewById(R.id.Txt_Cm);
+        msj4 = (TextView) findViewById(R.id.Txt_Cellphone);
+        msj5 = (TextView) findViewById(R.id.Txt_Email);
+        msj6 = (TextView) findViewById(R.id.Txt_H_Medic);
+
         Bundle myBundle = this.getIntent().getExtras();
         if ( myBundle !=null){
            String nombre = myBundle.getString("Name");
+            String location = myBundle.getString("Location");
+            String weight = myBundle.getString("Weight");
+            String height = myBundle.getString("Height");
+            String cellphone = myBundle.getString("Cellphone");
+            String email = myBundle.getString("Email");
+            String medicalhistory = myBundle.getString("MedicalHistory");
+
             msj.setText(nombre);
+            msj1.setText(location);
+            msj2.setText(weight);
+            msj3.setText(height);
+            msj4.setText(cellphone);
+            msj5.setText(email);
+            msj6.setText(medicalhistory);
+
         }
 
         //Recibir Info del Pacient Info

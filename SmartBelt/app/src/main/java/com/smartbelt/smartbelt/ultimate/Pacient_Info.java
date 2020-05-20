@@ -135,6 +135,13 @@ public class Pacient_Info extends AppCompatActivity {
                 Intent myIntent = new Intent(Pacient_Info.this, Pacient.class);
                 Bundle bundle = new Bundle();
                 bundle.putString("Name", mEditTextDatoName.getText().toString());
+                bundle.putString("Location", mEditTextDatoLocation.getText().toString());
+                bundle.putString("Weight", mEditTextDatoWeight.getText().toString());
+                bundle.putString("Height", mEditTextDatoHeight.getText().toString());
+                bundle.putString("Cellphone", mEditTextDatoCellphone.getText().toString());
+                bundle.putString("Email", mEditTextDatoEmail.getText().toString());
+                bundle.putString("Email", mEditTextDatoEmail.getText().toString());
+                bundle.putString("MedicalHistory", mEditTextDatoMedicalHistory.getText().toString());
                 myIntent.putExtras(bundle);
                 startActivity(myIntent);
 
