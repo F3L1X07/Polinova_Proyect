@@ -49,7 +49,7 @@
                 android:scaleType="fitXY" />
 
             <TextView
-                android:id="@+id/P_Name_P"
+                android:id="@+id/P_Name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 

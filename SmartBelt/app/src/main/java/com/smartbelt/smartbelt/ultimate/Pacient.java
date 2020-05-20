@@ -15,6 +15,8 @@ public class Pacient extends AppCompatActivity {
     private ImageView Exit;
     private Button Edit;
 
+    TextView msj;
+
    //TextView tvInfoEnviadaName;
 
 
@@ -25,8 +27,16 @@ public class Pacient extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pacient_activity);
 
+        msj = (TextView) findViewById(R.id.P_Name);
+        Bundle myBundle = this.getIntent().getExtras();
+        if ( myBundle !=null){
+           String nombre = myBundle.getString("Name");
+            msj.setText(nombre);
+        }
+
         //Recibir Info del Pacient Info
     /*    tvInfoEnviadaName = (TextView)findViewById(R.id.P_Name_P);
+
 
         Bundle bundle = getIntent().getExtras();
         String dato = bundle.getString("Name").toString();

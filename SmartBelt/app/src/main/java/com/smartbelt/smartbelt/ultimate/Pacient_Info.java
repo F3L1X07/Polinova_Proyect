@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,6 +19,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.jar.Attributes;
 
 public class Pacient_Info extends AppCompatActivity {
 
@@ -128,14 +130,39 @@ public class Pacient_Info extends AppCompatActivity {
 
                 cargarDatosFirebase(Name, Location, Weight, Height, Cellphone, Email, MedicalHistory);
 
-                Intent completado1  = new Intent(Pacient_Info.this, Pacient.class);
+                //evento(mEditTextDatoName);
+
+                Intent myIntent = new Intent(Pacient_Info.this, Pacient.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("Name", mEditTextDatoName.getText().toString());
+                myIntent.putExtras(bundle);
+                startActivity(myIntent);
+
+             //   Intent completado1  = new Intent(Pacient_Info.this, Pacient.class);
                 //completado1.putExtra("Name", mEditTextDatoName.getText().toString());
-                startActivity(completado1);
+               // startActivity(completado1);
             }
         });
 
+
     }// Aqui termina OnCreate
 
+
+/*public void evento(View view){
+        switch (view.getId()) {
+            case R.id.btn_Cancel:
+                Toast.makeText(this, "cambios cancelados", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.btn_Accept:
+                Intent myIntent = new Intent(Pacient_Info.this, Pacient.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("Name", mEditTextDatoName.getText().toString());
+                myIntent.putExtras(bundle);
+                startActivity(myIntent);
+                break;
+        }
+}
+*/
     private void cargarDatosFirebase(String name, String location, int weight, float height, int cellphone, String email, String medicalHistory) {
         Map<String, Object> datosUsuario = new HashMap<>();
         datosUsuario.put("Name", name);
